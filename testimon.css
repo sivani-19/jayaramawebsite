@@ -1,0 +1,64 @@
+.testimon
+  {
+    padding-bottom: 30px;
+    overflow: scroll;
+    background-color: rgb(6,143,202); 
+  }
+.Testimonials1:hover
+ {
+    transform: translateY(-8px); 
+    border:1px solid rgb(0, 0, 0);
+    transition: box-shadow 0.5s ease;
+ }
+.Testimonials-list
+  {
+     margin-top: 5%; 
+     margin-bottom: 2%;
+      text-align: center;
+  }
+.Testimonials
+  {
+    display:flex;
+    text-align: center; 
+    gap:10px;  margin:30px;
+    scroll-behavior: smooth;
+  }
+.Testimonials p 
+   { 
+    margin: 8%;
+     font-family: 'Ysabeau Infant', sans-serif;
+    }
+.Testimonials1
+{ 
+    background-color: rgb(255, 255, 255);
+    box-shadow:5px 5px 5px 5px rgba(84, 76, 76, 0.219) ;
+    display: flex;flex:0 0 calc(100%/3);
+}
+.button-container
+  { 
+    display: flex;justify-content: center;
+    text-align: center;width: fit-content;
+    left:50%;position: relative;
+transform:translate(-50%,10%);cursor: pointer;
+  }
+.button-container img
+  { 
+    background-color: #ea9b9b;width:7vb;
+    border-radius: 10px;padding: 5px;margin: 0px 12px;
+  }
+.Testimonials {
+    overflow-x:auto;
+   }
+.Testimonials::-webkit-scrollbar{
+    width:0%;
+}
+.checked {
+    color: orange;
+}
+.half{
+    color:black;
+}
+
+.Testimonials-list h4,p{font-size: 2vw;}
+.Testimonials1 p{font-size:1.3vw}
+.testimon{overflow-x: hidden;overflow-y: hidden;}

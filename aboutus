@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.aboutus{
+    text-align: center;
+    margin: 40px;}
+.view{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
+    gap:20px;background-color: rgba(172, 172, 172, 0.167);
+    padding-bottom: 30px;}
+.left1{
+    background: url("https://img.freepik.com/free-photo/real-estate-broker-agent-presenting-consult-customer-decision-making-sign-insurance-form-agreement_1150-15017.jpg?w=900&t=st=1691230091~exp=1691230691~hmac=0641873c9e5b1af1dba20d9880cf260ab5345f4e54d5d64b8d811686a50b1635");
+background-repeat:no-repeat ;
+background-size: cover;
+height:400px;
+margin-left: 20vmin;
+margin-top: 30px;
+width:400px;
+}
+.right{
+    transform: translateY(10%);
+}
+.right p,h2{
+    font-size: 3vmin;
+    margin: 0px 30px;
+    position:relative;
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+}
+.right h2{
+    text-decoration: underline;
+    text-align: center;left:-50px;
+    margin-bottom: 5vmin;font-size: 6vmin;
+    font-family: 'Roboto Slab', serif;}
