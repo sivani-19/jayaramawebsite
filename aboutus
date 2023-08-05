@@ -31,4 +31,5 @@ width:400px;
     text-decoration: underline;
     text-align: center;left:-50px;
     margin-bottom: 5vmin;font-size: 6vmin;
-    font-family: 'Roboto Slab', serif;}
+    font-family: 'Roboto Slab', serif;
+}

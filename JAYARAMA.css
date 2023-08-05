@@ -34,10 +34,3 @@ header {display: flex;align-items: center;justify-content: space-between;padding
 .span1{color: rgb(6,143,202);font-size:7vmin ;}
 .span2{color:rgb(6,143,202);;font-size: 7vmin;}
 
-
-
-
-
-table, th, tr {
-    border: 2px solid;
-  }
