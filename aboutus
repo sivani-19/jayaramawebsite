@@ -9,7 +9,7 @@
     gap:20px;background-color: rgba(172, 172, 172, 0.167);
     padding-bottom: 30px;}
 .left1{
-    background: url("https://img.freepik.com/free-photo/real-estate-broker-agent-presenting-consult-customer-decision-making-sign-insurance-form-agreement_1150-15017.jpg?w=900&t=st=1691230091~exp=1691230691~hmac=0641873c9e5b1af1dba20d9880cf260ab5345f4e54d5d64b8d811686a50b1635");
+background: url("https://img.freepik.com/free-photo/real-estate-broker-agent-presenting-consult-customer-decision-making-sign-insurance-form-agreement_1150-15017.jpg?w=900&t=st=1691230091~exp=1691230691~hmac=0641873c9e5b1af1dba20d9880cf260ab5345f4e54d5d64b8d811686a50b1635");
 background-repeat:no-repeat ;
 background-size: cover;
 height:400px;
