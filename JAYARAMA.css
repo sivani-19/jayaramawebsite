@@ -28,9 +28,10 @@ header {display: flex;align-items: center;justify-content: space-between;padding
 /*----------------------------------------------------------------------------------------*/
 
 .parallax{display: grid;grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
-    background-color: #000000;top:13vmin;position: relative;}
-.parallax1 p{transform: translateY(20%);color: #ccc;margin-left:13vmin;font-size: 7vmin;}
-.parallax2 img{left:-10vmin;position: relative;}
-.span1{color: rgb(6,143,202);font-size:7vmin ;}
-.span2{color:rgb(6,143,202);font-size: 7vmin;}
+    top:13vmin;position: relative;overflow: hidden;}
+.parallax1 p{transform: translateY(50%);color: #040404;margin-left:13vmin;font-size: 7vmin;}
+.parallax2 {left:-10vmin;position: relative;border-radius:30px   ;
+    ;width:90%;}
+.span1{color: rgb(6,143,202);font-size:7vmin ;font-weight: bold;}
+.span2{color:rgb(6,143,202);font-size: 7vmin;font-weight: bold;}
 .span3{margin-top: 30px;color: #ea9b9b;font-size: 10px;}

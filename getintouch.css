@@ -1,26 +1,46 @@
 
-#Getintouch1 h2{text-align: center;}
-#Getintouch{display: grid;grid-template-columns: repeat(auto-fit,minmax(500px,2fr));gap:20px;background-color:rgb(0, 0, 0);}
-#Getintouch span{color: rgb(0, 0, 0);font-family: 'Lato', sans-serif;
+#Getintouch1 h2{
+    text-align: center;
+}
+#Getintouch{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,2fr));
+    gap:20px;background-color:rgb(0, 0, 0);}
+#Getintouch span{
+    color: rgb(0, 0, 0);
+    font-family: 'Lato', sans-serif;
  ;border-radius: 12px;box-sizing: border-box;border:0px solid black;display:flex;align-items: center;}
-#Getintouch p{font-size: 2.5vh;}
- .Adressoffics{background-color: #ffffff;margin:30px 30px;border-radius: 3px;color: #000000;}
-#Getintouch i{color:rgb(18, 18, 104);padding:2.8vmin;border-radius:10px;font-size: 5vh;text-align: left;}
+#Getintouch p{
+    font-size: 2.5vh;
+}
+ .Adressoffics{
+    background-color: #ffffff;
+    margin:30px 30px;
+    border-radius: 3px;color: #000000;}
+#Getintouch i{
+    color:rgb(18, 18, 104);
+    padding:2.8vmin;border-radius:10px;
+    font-size: 5vh;text-align: left;}
 
-.data input{width:330px;height: 30px;margin-top:2%;outline: none;} 
-.Message textarea{width:330px;height: 100px;margin-top: 2%;outline: none;}
-.details button{color: rgb(0, 0, 0);padding: 1% 20px;margin-top: 1%; font-size: 18px;}
-.popup {display: none; /* Initially hidden */position: fixed;top: 0%;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.8);overflow: auto;}
-.popup-content {position: relative;background-color: #000000;margin: 15% auto;padding: 20px;width: 300px;max-width: 80%;text-align: center;}
-.close {position: absolute; top: 10px;right: 10px;font-size: 20px;cursor: pointer;}
+.data input{
+    width:330px;height: 30px;margin-top:2%;
+    outline: none;} 
+.Message textarea{
+    width:330px;height: 100px;
+    margin-top: 2%;outline: none;}
+.details button{
+    color: rgb(0, 0, 0);padding: 1% 20px;margin-top: 1%;
+     font-size: 18px;}
+.popup {display: none; /* Initially hidden */position: fixed;
+    top: 0%;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.8);overflow: auto;}
+.popup-content {position: relative;background-color: #000000;
+    margin: 15% auto;padding: 20px;width: 300px;max-width: 80%;text-align: center;}
+.close {position: absolute;
+     top: 10px;right: 10px;font-size: 20px;
+     cursor: pointer;}
 .popup-content h2 p {margin-bottom: 10px;}
-.branch p{background-color: #ffffff;color: #000000;text-align: center;padding: 8px;}  
+.branch p{background-color: #ffffff;
+    
+    color: #000000;text-align: center;padding: 8px;}  
 .details{text-align: center;}
 
-
-/*----------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------*/
-
-.Testimonials-list h4,p{font-size: 2vw;}
-.Testimonials1 p{font-size:1.3vw}
-.testimon{overflow-x: hidden;overflow-y: hidden;}

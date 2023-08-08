@@ -31,7 +31,7 @@
     .menucolumn{text-align: center;justify-content: center;padding: 0 60px;}
     .menu { display:none;}
     .menu-btn{display: block;}
-    .view p{text-align: center; margin: 20px 40px; font-family: 'Philosopher', sans-serif;}
+
     #readMoreButton{background-color: rgb(206, 153, 206);text-align: center;position: relative;margin:0 30%;padding:10px 0; }
     .service > div {flex: 0 0 100%; /* Adjust the card width and margin as needed depends on the page scree */
       height: fit-content;background-color: #f2f2f2; margin-left: -5px; width: 20%;font-size: 3vw; }
@@ -54,7 +54,7 @@
     .Adressoffics{width:fit-content;}
     .Adressoffics p,
     .Adressoffics pre {padding-left: 10px;font-size: 4vw;}}
-    .view .left p{font-size: 5vw;}
+    
   /*-------------------------------------------------------------------------------
   *********************************************************************************
   *********************************************************************************
@@ -73,8 +73,7 @@
   .parallax{ min-height: 30vw; background-attachment: fixed; background-position: center;background-repeat: no-repeat;background-size: cover;opacity: 0.8;}
   .Adressoffics p{font-size: 1.5vw;}
   .Adressoffics{margin-top: 1.5%;}
-  .view h4{font-size: 2vw;}
-  .view .left p{font-size: 1.5vw;}
+
   
   @media (min-width: 577px) and (max-width: 992px) {
     .parallax1 p{
