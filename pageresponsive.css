@@ -1,6 +1,3 @@
-
-/*----------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------*/
 @media (max-width: 768px) {
     .container {width: 100%;}
     .container h2,
@@ -26,13 +23,11 @@
     .container h2,
     .container p {font-size: 16px;}
     header{height: 70px;}
-    .parallax1 {position: absolute;top:100px;transform: translate(10%,50%);width:80%;}
     .Adressoffics {padding: 0px;}
     .menucolumn{text-align: center;justify-content: center;padding: 0 60px;}
     .menu { display:none;}
     .menu-btn{display: block;}
 
-    #readMoreButton{background-color: rgb(206, 153, 206);text-align: center;position: relative;margin:0 30%;padding:10px 0; }
     .service > div {flex: 0 0 100%; /* Adjust the card width and margin as needed depends on the page scree */
       height: fit-content;background-color: #f2f2f2; margin-left: -5px; width: 20%;font-size: 3vw; }
     .Valutions p{font-size: 100%;}
@@ -45,11 +40,6 @@
     #Getintouch{display: flex;flex-direction: column;position: relative;justify-content: center;}
     .Adressoffics{width: 80%;justify-content: center;left: 0%; transform: translate(13%,20%);}
     .data input,.data textarea{ width: 80%;}
-    .parallax1 p{position: absolute; top: 0%;left: 50%;transform: translate(40%,-70%);z-index: 2;text-align: center;width:60%;line-height: 10%;}
-    .services-list h4{font-size:3vw ;}
-    .Testimonials div{display:flex;flex:0 0 100%;}
-    .Testimonials1 p{font-size: 4vw;}
-    .Testimonials-list p{font-size: 4vw;}
     .testimon h4{font-size: 7vw;}
     .Adressoffics{width:fit-content;}
     .Adressoffics p,
@@ -66,21 +56,13 @@
   .Testimonials p{font-size: 1.3vw;}
   #service {justify-content: flex-start;margin-left: 100px;margin-right: 100px;}
   .service > div {flex: 0 0 calc(100% / 5 - 20px);}
-  .service h4{font-size: 1vw;}
   .service p{font-size: 1vw;}
   .Touch1 {padding: 30px;}
-  .parallax1 p{position: absolute; top: 50%;left: 50%;transform: translate(-50%, 85%);z-index: 2;text-align: center;width:70%;}}
-  .parallax{ min-height: 30vw; background-attachment: fixed; background-position: center;background-repeat: no-repeat;background-size: cover;opacity: 0.8;}
   .Adressoffics p{font-size: 1.5vw;}
   .Adressoffics{margin-top: 1.5%;}
-
+  }
   
   @media (min-width: 577px) and (max-width: 992px) {
-    .parallax1 p{
-      position: absolute; top: 50%;left: 50%;transform: translate(-50%, 5%);z-index: 2;
-     text-align: center;width:80%;}
-     .Adressoffics p,
-     .Adressoffics pre {padding-left: 10px;font-size: 1.1vw;}
   .menu-btn {display: flex;}
   .closed {display: none;}
   .navbar__container img {
@@ -97,7 +79,7 @@
     
     .Testimonials1 {flex: 0 0 calc(100% / 3 - 20px);}
     .service > div{gap:20px;width: 100%; padding: 0 10px; margin: 0 10px;height: 300px;}
-    .service >div p{font-size: 1.7vw;}
+ 
     #service {justify-content: center; }
     .Valutions {margin-top:2% ;}
    .service > div {flex: 0 0 calc(100% / 3 - 20px);margin-top: 2%;}
@@ -106,9 +88,7 @@
   .closed {display: none;}
   .closed {display: none;}
   .navbar__container img {max-width: 50%; height: auto; display: block; margin-left: 0;margin-right: auto;}
-  .parallax1 p{
-    position: absolute; top: 50%;left: 50%;transform: translate(-50%, -35%);z-index: 2;
-   text-align: center;width:80%;}
+
    #Getintouch .Adressoffics{justify-content: center;margin-left: -14px;}
    .Adressoffics p{font-size: 1.9vw;}
   
@@ -125,13 +105,8 @@
   *********************************************************************************
   ---------------------------------------------------------------------------------*/
   @media (max-width: 576px) {
-    .parallax{
-     min-height: 50vw; 
-      background-attachment: fixed; background-position: center;
-      background-repeat: no-repeat;background-size: cover;opacity: 0.8;}
-    .parallax1 p{
-      position: absolute; top: 50%;left: 50%;transform: translate(-50%, 0%);z-index: 2;font-size: 3vw;
-     text-align: center;width:60%;line-height: 100%;}
+
+  
      .Adressoffics p{padding-left: 10px;font-size: 2.2vw;}
   .closed {display: none;}
   
@@ -142,11 +117,6 @@
   *********************************************************************************
   ---------------------------------------------------------------------------------*/
   @media (min-width:992px) and (max-width:1200px) {
-    .parallax1 p{
-      position: absolute; top: 50%;left: 50%;transform: translate(-50%, -70%);z-index: 2;
-      background-color: rgb(15, 14, 14);color: rgb(255, 255, 255); 
-      text-align: center;width:60%;}
     .service p{font-size: 1.2vw;}
-    .service h4{font-size: 1.5vw;}
       .menu ul li{position: relative;display: flex;flex-direction: column;margin: 20px;}
   }

@@ -126,33 +126,21 @@ function sendemail() {
         // Initial call to moveSlider to set the initial position
         moveSlider(0);
         
+document.addEventListener("DOMContentLoaded", function() {
+    var messageButton = document.getElementById("messageButton");
+    var detailsSection = document.querySelector(".details");
+    var messagesection = document.getElementsByClassName("Message_Us");
+
+    messageButton.addEventListener("click", function() {
+        detailsSection.style.visibility = "visible";
+        
+    });
+});
+
 
 
 // Reset animation properties after adding the duplicate slide
-testimonialsContainer.style.animationName = 'none';
-setTimeout(() => {
-  testimonialsContainer.style.animationName = 'scrolling';
-}, 100);
-function toggleReadMore() {
-  var readMoreText = document.getElementById("readMoreText");
-  var readMoreButton = document.getElementById("readMoreButton");
 
-  if (readMoreText.style.display === "none") {
-    readMoreText.style.display = "block";
-    readMoreButton.innerHTML = "Read Less";
-  } else {
-    readMoreText.style.display = "none";
-    readMoreButton.innerHTML = "Read More";
-  }
-}
 
 // Add smooth scrolling to all links
-document.querySelectorAll('a[href^="#parallax" ]','a[href^="#aboutus" ]','a[href^="#services"]','a[href^="#Getintouch"]').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
 
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});

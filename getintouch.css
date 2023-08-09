@@ -1,46 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
 #Getintouch1 h2{
+    font-family: 'Roboto Slab', serif;
     text-align: center;
+    color: white;
+    color: #000000;
 }
-#Getintouch{
+.Adressoffics{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(500px,2fr));
-    gap:20px;background-color:rgb(0, 0, 0);}
+    grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
+    text-align: center;
+    gap:1px;
+}
+#Getintouch1
+{
+    position: relative;
+    margin-top: 12vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Getintouch1 p{
+    font-family: 'Cabin', sans-serif;
+}
+#Getintouch2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#Getintouch2 p{
+    text-align: center;
+    font-size: 7vmin;
+    transform: translateY(50%);
+    width:50%;
+}
+.property1{
+    color: rgba(6, 142, 200, 0.92);
+    font-size: 9vmin;
+}
+.Message_Us{
+    position: relative;
+    font-size: 3.5vmin;
+    background-color: rgb(6,143,202);
+    padding: 10px;
+    border-radius: 10px;
+    top: 3vmin;
+    cursor:pointer;
+}
+
+#Getintouch{
+    position: relative;
+    background-color:rgb(0, 0, 0);
+    margin:20px;
+}
 #Getintouch span{
     color: rgb(0, 0, 0);
     font-family: 'Lato', sans-serif;
- ;border-radius: 12px;box-sizing: border-box;border:0px solid black;display:flex;align-items: center;}
+}
 #Getintouch p{
     font-size: 2.5vh;
 }
- .Adressoffics{
-    background-color: #ffffff;
-    margin:30px 30px;
-    border-radius: 3px;color: #000000;}
-#Getintouch i{
-    color:rgb(18, 18, 104);
-    padding:2.8vmin;border-radius:10px;
-    font-size: 5vh;text-align: left;}
-
+.Adressoffics{
+    background-color: rgb(0, 0, 0);
+    height: 20%;
+   
+}
+.Adressoffics i
+{
+    color:#a1a1da;
+    background-color: #000000;
+    border-radius:50%;
+    padding:2.8vmin;
+    font-size: 5vh;
+}
 .data input{
-    width:330px;height: 30px;margin-top:2%;
-    outline: none;} 
+    width:330px;
+    height: 30px;
+    margin-top:2%;
+    outline: none;
+} 
 .Message textarea{
-    width:330px;height: 100px;
-    margin-top: 2%;outline: none;}
+    width:330px;
+    height: 100px;
+    margin-top: 2%;
+    outline: none;
+}
 .details button{
-    color: rgb(0, 0, 0);padding: 1% 20px;margin-top: 1%;
-     font-size: 18px;}
-.popup {display: none; /* Initially hidden */position: fixed;
-    top: 0%;left: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.8);overflow: auto;}
-.popup-content {position: relative;background-color: #000000;
-    margin: 15% auto;padding: 20px;width: 300px;max-width: 80%;text-align: center;}
-.close {position: absolute;
-     top: 10px;right: 10px;font-size: 20px;
-     cursor: pointer;}
-.popup-content h2 p {margin-bottom: 10px;}
-.branch p{background-color: #ffffff;
-    
-    color: #000000;text-align: center;padding: 8px;}  
-.details{text-align: center;}
+    color: rgb(0, 0, 0);
+    padding: 1% 20px;
+    margin-top: 1%;
+    font-size: 18px;}
+.details{
+    text-align: center;
 
+    visibility: hidden;
+}
+.data i{
+    position: relative;
+    font-size: 4vmin;
+    color: rgb(0, 0, 0);    
+}
+.data img{
+    position: relative;
+    width:4.5vmin;
+}
+input[type=text],input[type=email],input[type=number],input[type=message]
+{
+    padding-left: 4vmin;
+}
+.data input{
+    margin-left: -6vmin;
+}
+.Submit button{
+    border:none;
+    background:linear-gradient(to bottom,rgba(0, 0, 255, 0.336) 25%,rgba(6, 142, 200, 0.92));
+    cursor: pointer;
+}
+.officeheads{
+    position: relative;
+    font-size:large;
+    color:rgba(6, 142, 200, 0.92)
+}
+#Getintouchparent{
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.135),rgba(255, 0, 0, 0.167));
+}
+#Getintouch .officeheads_parent{
+    background-color:aliceblue;
+    height: 100%;
+    padding: 0px 40px;
+}
+#Getintouch .officeheads{
+    color:rgb(6,143,202);
+    font-size: 3.8vmin;
+}

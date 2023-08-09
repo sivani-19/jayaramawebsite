@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+.view1{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
+    height:420px;
+    padding-top: 40px;
+    background:linear-gradient(to right,rgb(255, 255, 255) 19%,rgba(242, 213, 213, 0.379));
+    position:relative;
+    top:7vmin;
+}
+.right1 h2{
+    font-size: 5vmin;
+    margin-bottom: 5vmin;
+}
+.right1{
+  width:80%;
+}
+.right1 p{
+    font-family: 'IBM Plex Serif', serif;
+    font-style: oblique;
+    font-size: 3vmin;
+    transform: translateX(10%);
+}
+.left11{
+    background:url("https://img.freepik.com/free-photo/real-estate-broker-agent-presenting-consult-customer-decision-making-sign-insurance-form-agreement_1150-15017.jpg?size=626&ext=jpg&uid=R60976962&ga=GA1.2.1000128795.1690456022&semt=ais");
+   width: 350px;
+    height: 350px;
+    background-clip: 5px;
+    padding: 5px;
+    margin-top:-10vmin;
+    object-fit: contain;
+    transform: translateX(30%);
+    justify-content: center;
+}

@@ -1,28 +1,25 @@
-.testimon
-  {
-    padding-bottom: 30px;
-    overflow: scroll;
-
-    
-  }
-.Testimonials1:hover
- {
-    transform: translateY(-8px); 
-    border:1px solid rgb(0, 0, 0);
-    transition: box-shadow 0.5s ease;
- }
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 .Testimonials-list
   {
      margin-top: 5%; 
      margin-bottom: 2%;
       text-align: center;
   }
+  .Testimonials-list h4{
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+}
+.Testimonials-list p{
+  font-family: 'Merriweather', serif;
+
+}
 .Testimonials
   {
     display:flex;
     text-align: center; 
     gap:10px;  margin:30px;
-    scroll-behavior: smooth;
+    
   }
 .Testimonials p 
    { 
@@ -31,28 +28,11 @@
     }
 .Testimonials1
 { 
-    background-color: rgb(255, 255, 255);
-    box-shadow:5px 5px 5px 5px rgba(84, 76, 76, 0.219) ;
-    display: flex;flex:0 0 calc(100%/3);
+  background: linear-gradient(to bottom,rgba(255, 255, 255, 0.114) 25%,rgba(255, 255, 255, 0.989));
+    display: flex;flex:0 0 calc(100%/4);
+    border-radius: 12px;
 }
-.button-container
-  { 
-    display: flex;justify-content: center;
-    text-align: center;width: fit-content;
-    left:50%;position: relative;
-transform:translate(-50%,10%);cursor: pointer;
-  }
-.button-container img
-  { 
-    background-color: #ea9b9b;width:7vb;
-    border-radius: 10px;padding: 5px;margin: 0px 12px;
-  }
-.Testimonials {
-    overflow-x:auto;
-   }
-.Testimonials::-webkit-scrollbar{
-    width:0%;
-}
+
 .checked {
     color: orange;
 }
@@ -60,6 +40,14 @@ transform:translate(-50%,10%);cursor: pointer;
     color:black;
 }
 
-.Testimonials-list h4,p{font-size: 2vw;}
 .Testimonials1 p{font-size:1.3vw}
 .testimon{overflow-x: hidden;overflow-y: hidden;}
+
+.Testimonials1:hover
+ {
+  background: whitesmoke;
+    transform:scale(1.2)
+ }
+ .Testimonials-list h4{
+  font-size:5vmin;
+ }

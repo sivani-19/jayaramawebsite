@@ -13,14 +13,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Manrope:wght@300&family=PT+Serif&family=Philosopher:ital@1&family=Rokkitt:wght@300&family=Tilt+Neon&family=Ysabeau+Infant:wght@300&family=Ysabeau+Office:wght@1;100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap" rel="stylesheet">
 </head>
 <body> 
 <header class="Main_menu">
@@ -29,8 +23,8 @@
     </div>
         <nav class="menu">
             <ul>
-                <li><a href="#parallax"  >Home</a></li>
-                <li><a href="#aboutus">About</a></li>
+                <li><a href="#parallax">Home</a></li>
+                <li><a href="#aboutus1">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#Getintouch">Contact</a></li>
             </ul>           
@@ -70,7 +64,7 @@
         <div class="service">
             <div class="Residential Valutions">
         
-        <div class="Valutions">
+        <div class="Valutions" id="Valutions">
       <img src="./allimages/house.png" alt="home">
     </div>
     <h4>Residential Valuations</h4>
@@ -79,7 +73,7 @@
              and comparable sales in the area..</p>
         </div>
     <div class="Commerical Valutions">
-        <div class="Valutions">
+        <div class="Valutions" id="Valutions">
         <img src="./allimages/office-building.png" alt="office">   
         </div>
         <h4>Commerical Valuations</h4>
@@ -87,7 +81,7 @@
             such as office buildings, retail spaces, industrial facilities, and other non-residential properties. </p>
     </div>
     <div class="Industrial Valutions">
-        <div class="Valutions" >
+        <div class="Valutions" id="Valutions">
             <img src="./allimages/factory (1).png" alt="factory">
         </div>
         <h4>Industrial Valutaions</h4>
@@ -97,7 +91,7 @@
     
     </div>
     <div class="Leasehold Properties Valutions">
-         <div class="Valutions">
+         <div class="Valutions" id="Valutions">
            <img src="./allimages/house (1).png" alt="lease">
         </div>
         <h4>Leasehold Properties Valuations</h4>
@@ -107,7 +101,7 @@
         </p>
     </div>
     <div class="Capital Gains Valutions">
-    <div class=" Valutions">
+    <div class=" Valutions" id="Valutions">
            <img src="./allimages/funds.png" alt="capital">
         </div>
         <h4>Capital Gains Valuations</h4>
@@ -117,7 +111,7 @@
         </p>
     </div>
     <div class="Valutions for Banking purposes">
-         <div class="Valutions">
+         <div class="Valutions" id="Valutions">
             <img src="./allimages/bank.png" alt="bank">
         </div>
         <h4>Valuation for Banking purposes</h4>
@@ -126,7 +120,7 @@
         </p>
     </div>
     <div class="Visa Valutions ">
-         <div class="Visa Valutions">
+         <div class="Visa Valutions" id="Valutions">
           <img src="./allimages/visa.png" alt="visa">
         </div>
         <h4>Visa valuation</h4>
@@ -136,39 +130,39 @@
         </p>
     </div>
     <div class="Cost of construction Valutions for IncomeTax purposes ">
-         <div class="Cost of construction Valutions for IncomeTax purposes">
+         <div class="Cost of construction Valutions for IncomeTax " id="Valutions">
             <img src="./allimages/taxes.png" alt="visa">
         </div>
-        <h4>Cost of construction Valution for IncomeTax purposes</h4>
+        <h4>Cost of construction Valution for IncomeTax</h4>
         <p>
-            determining the value of a property's construction or improvement costs. 
+            Determining the value of a property's construction or improvement costs. 
             It is relevant for income tax purposes when calculating deductions or allowances related
             to property construction or improvements.
         </p>
     </div>
     <div class="L&B Valutions Related Court">
-         <div class="L&B Valutions Related Court">
+         <div class="L&B Valutions Related Court" id="Valutions">
             <img src="./allimages/funds.png" alt="relatedcourt">
         </div>
         <h4>L&B Valuation Related Court</h4>
         <p>
-            typically refers to the valuation of land and buildings conducted in the context of legal disputes or litigation
+           Refers to the valuation of land and buildings conducted in the context of legal disputes or litigation
             valuations are carried out to determine the market value or compensation amount associated
              with a property that is the subject of a legal case
         </p>
     </div>
     <div class="Valutions for liquidation purpose">
-         <div class="Valutions for liquidation purpose">
+         <div class="Valutions for liquidation " id="Valutions">
             <img src="./allimages/liquidity.png">
         </div>
         <h4>Valuation for liquidation purpose</h4>
         <p>
-            refers to the process of determining the value of assets or a company's assets during the liquidation process
+            Refers to the process of determining the value of assets or a company's assets during the liquidation process
             occurs when a company is unable to meet its financial obligations and seeks to sell off its assets
         </p>
     </div>
 </div>
-
+</div>
     <div class="button-container">
         <div class="buttonleft" onclick="moveSlider(-1)">
         <img src="./allimages/left-arrow.png" alt="left-arrow">
@@ -177,8 +171,8 @@
         <img src="./allimages//right-arrow.png" alt="right-arrow">
         </div>
       </div>
-    </div>
-    
+
+   
       <div class="testimon">
         <div class="Testimonials-list"> <h4>Testimonials</h4>
             <p>Choose I&N INTERIORS To Design Your Home/Office</p></div>
@@ -241,19 +235,7 @@
                 <span class="fa fa-star checked"></span>
             </p>
             </div>
-        <div class ="Testimonials1 4">
-                    <p>
-                        quick responsive staff and services are upto my satisfactory level.<br>
-                       Thank you team<br><br><br><br><br><br>
-                 <span>raj kumar</span><br>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star checked"></span>
-                 <span class="fa fa-star half"></span>
-                    </p>
-                </div>
-               
+      
             
         </div>
     </div>
@@ -263,11 +245,11 @@
        <img src="allimages/copyright.png" alt="copyright" width="20"> 2023 all rights are reseverd  
     </div>-->
 
-    <div class="view" id="aboutus"> 
-        <div class="left1">
+    <div class="view1" id="aboutus1"> 
+        <div class="left11">
              
         </div>
-        <div class="right">
+        <div class="right1">
             <h2> About Us</h2>
             <p>we specialize in providing comprehensive valuation services tailored to meet your unique needs.
                  Whether you require land and building valuation, wealth tax assessment, valuation for visa purposes, 
@@ -285,29 +267,44 @@
               
         </div> 
       </div>
+      <div class="Get in touch parent" id="Getintouchparent">
       <div class="Get in TOUCH11 " id="Getintouch1">
         <h2>GET IN TOUCH</h2>
+    
     </div>
-    <div class="Get In Touch" id="Getintouch">
-   <div class="Adressoffics">
-    <span><p><i class="fa-solid fa-phone"></i></p><p> phone:<br>098666 69777</p></span>
-    <span><p><i class="fa-regular fa-envelope"></i></p><p> Mail:<br>sivanigulla@gmail.com</p></span>
-    <span><p><i class="fa-solid fa-location-dot"></i></p><p>Adress:<br>Plot No. 12,Road,Street Number 1A,Czech Colony,  Sanath Nagar, Hyderabad, Telangana 500018</p></span>
-    <span><p><i class="fa-solid fa-clock"></i></p><p> business hours:<br>Monday-Saturday(10am-7pm)</p></span>
-</div>
-
-
-
+    <div class="Get in TOUCH2" id="Getintouch2">
+        <p>Unlocking the true worth of your <span class="property1">property</span> – where <span class="property1">value</span> meets potential.
+            <br><span class="Message_Us" id="messageButton">
+                Message Us</span></p>
+    </div>
+  
        <div class="details">
       <form onsubmit="sendemail(); reset(); return false";>
-        <div class="Name data"><input type="text" id="Name" placeholder="enter your name" required></div>
-        <div class="text data"><input type="number" id="number" placeholder="Phone Number" required></div>
-        <div class="email data"></i><input type="email" id="email" placeholder="Email-Id" required></div>
-        <div class="Message data"><textarea placeholder="Message" id="Message" required></textarea></div>
+        <div class="Name data">
+            <i class="fa-solid fa-user"></i>
+             <input type="text" id="Name" placeholder="enter your name" required>
+        </div>
+        <div class="text data">
+            <img src="./allimages/phone (1).png" alt="phone">
+            <input type="number" id="number" placeholder="Phone Number" required></div>
+        <div class="email data">
+            <img src="./allimages/gmail (1).png" alt="gmail">
+            <input type="email" id="email" placeholder="Email-Id" required></div>
+        <div class="Message data">
+
+            <textarea placeholder="Message" id="Message" required></textarea></div>
        <div class="Submit"><button type="submit">Submit</button> </div>
+       </div>
 </form>
     </div>
-
+    <div class="Get In Touch" id="Getintouch">
+        <div class="Adressoffics">
+         <span class="officeheads_parent"><p><i class="fa-solid fa-phone"></i></p><p> <span class="officeheads">phone:</span><br>098666 69777</p></span>
+         <span class="officeheads_parent"><p><i class="fa-regular fa-envelope"></i></p><p><span class="officeheads">Mail:</span><br>sivanigulla@gmail.com</p></span>
+         <span class="officeheads_parent"><p><i class="fa-solid fa-location-dot"></i></p><p><span class="officeheads">Adress:</span><br>Plot No. 12,Road,Street Number 1A,Czech Colony,  Sanath Nagar, Hyderabad, Telangana 500018</p></span>
+         <span class="officeheads_parent"><p><i class="fa-solid fa-clock"></i></p><p><span class="officeheads">business hours:</span><br>Monday-Saturday<br>(10am-7pm)</p></span>
+     </div>
+     
 </div>
     <script src="JAYARAMAJAVA.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
