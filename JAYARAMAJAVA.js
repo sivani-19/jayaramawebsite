@@ -129,11 +129,13 @@ function sendemail() {
 document.addEventListener("DOMContentLoaded", function() {
     var messageButton = document.getElementById("messageButton");
     var detailsSection = document.querySelector(".details");
-    var messagesection = document.getElementsByClassName("Message_Us");
+    var messagesection = document.getElementById("Getintouch2");
 
     messageButton.addEventListener("click", function() {
         detailsSection.style.visibility = "visible";
-        
+        messagesection.style.visibility="hidden";
+        detailsSection.style.transform = "translateY(-50%)";
+
     });
 });
 

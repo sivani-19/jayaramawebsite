@@ -79,13 +79,11 @@
 .data input{
     width:330px;
     height: 30px;
-    margin-top:2%;
     outline: none;
 } 
 .Message textarea{
     width:330px;
     height: 100px;
-    margin-top: 2%;
     outline: none;
 }
 .details button{
@@ -96,26 +94,31 @@
 .details{
     text-align: center;
 
-    visibility: hidden;
+}
+.data {
+    display: flex;/*keeps the icons at the middle of the input*/
+    align-items: center;
+    justify-content: center;/*keeps inputs at the middle of the page*/
 }
 .data i{
     position: relative;
-    font-size: 4vmin;
-    color: rgb(0, 0, 0);    
+    font-size: 3.6vmin;
+    color: rgb(0, 0, 0);
+    left:4.7vmin;
 }
-.data img{
-    position: relative;
-    width:4.5vmin;
-}
+
 input[type=text],input[type=email],input[type=number],input[type=message]
 {
-    padding-left: 4vmin;
+    padding-left: 5vmin;
 }
-.data input{
-    margin-left: -6vmin;
+textarea
+{
+    padding-left: 1vmin;
 }
+
 .Submit button{
     border:none;
+    border-radius: 12px;
     background:linear-gradient(to bottom,rgba(0, 0, 255, 0.336) 25%,rgba(6, 142, 200, 0.92));
     cursor: pointer;
 }
@@ -123,9 +126,6 @@ input[type=text],input[type=email],input[type=number],input[type=message]
     position: relative;
     font-size:large;
     color:rgba(6, 142, 200, 0.92)
-}
-#Getintouchparent{
-    background: linear-gradient(to right,rgba(0, 0, 255, 0.135),rgba(255, 0, 0, 0.167));
 }
 #Getintouch .officeheads_parent{
     background-color:aliceblue;
@@ -135,4 +135,11 @@ input[type=text],input[type=email],input[type=number],input[type=message]
 #Getintouch .officeheads{
     color:rgb(6,143,202);
     font-size: 3.8vmin;
+}
+.data{
+    position: relative;
+    margin: 20px;
+}
+.data1{
+  left:-10px;
 }

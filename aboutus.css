@@ -23,13 +23,9 @@
     transform: translateX(10%);
 }
 .left11{
-    background:url("https://img.freepik.com/free-photo/real-estate-broker-agent-presenting-consult-customer-decision-making-sign-insurance-form-agreement_1150-15017.jpg?size=626&ext=jpg&uid=R60976962&ga=GA1.2.1000128795.1690456022&semt=ais");
-   width: 350px;
-    height: 350px;
-    background-clip: 5px;
-    padding: 5px;
-    margin-top:-10vmin;
-    object-fit: contain;
-    transform: translateX(30%);
-    justify-content: center;
+    background:url("https://img.freepik.com/free-photo/creative-people-working-office_23-2147656715.jpg?size=626&ext=jpg&uid=R60976962&ga=GA1.2.1000128795.1690456022&semt=ais");
+    background-size: cover; /* Adjust the background image size */
+    width: 100%;
+    position: relative;
+    margin-left: 0vmin;
 }

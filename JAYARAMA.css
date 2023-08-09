@@ -18,7 +18,7 @@ header {display: flex;
     border-bottom:1px solid #2c2c2c;}
 .navbar__container img {max-width:20%;height:20%;left:0px;top:0px;}
 .menu ul {list-style: none;display: flex;flex-direction:row;margin:20%;}
-.menu li {margin-right: 60px; margin-top:-10px;}
+.menu li {margin-right: 60px; margin-top:-10px;position: relative;}
 .menu li:last-child {margin-right:150px;}
 .menu a {text-decoration: none;color: #ffffff;display:block;}
 .navbar_links::after{content:'';height: 3px;position: absolute;left: 0%;bottom: -8px;transition: 0.4s;}
@@ -31,21 +31,28 @@ header {display: flex;
 .fa-bars,.fa-xmark{display: inline-block;cursor: pointer;}
 .menucolumn{display: none;}
 .menucolumn ul{background-color: #000000;text-align: center;position: absolute;display: flex;flex-direction: column;z-index: 4;padding: 20px;}
-.menu li ::after{
-    content:"";
-    width:100%;
-    height:2px;
-    border-radius:2px;
+/* Add this CSS for underlined links */
+
+  .menu li a::after {
+    content: "";
     position: absolute;
-    left:0;
-    background-color: #ea9b9b;
-    /* Center the line under the text */
+    left: 50%;
+    bottom: -6px; /* Adjust this value for desired spacing */
+    border-radius: 3px;
+    width: 0;
+    height: 3px;
+    background-color: #ff0000;
     transition: width 0.3s;
-    box-sizing: border-box;
-}
-.menu li :hover::after{
-    width:10%;
-}
+    transform: translate(-50%);
+  }
+  .menu li a:hover::after {
+    width: 100%;
+  }
+  .menu li a:hover{
+    transform: scale(1.1);
+  }
+  
+  /* Rest of your existing CSS */
 .menucolumn li { padding: 10px 50px;overflow-x: hidden;}
 .menucolumn a{text-decoration: none;color: rgb(255, 255, 255);list-style: none;}
 .menucolumn li:hover{background-color: #ea9b9b;}
@@ -61,8 +68,8 @@ header {display: flex;
    margin-left: 13vmin;
     font-size: 7vmin;
     animation: slideRight 2s linear 1 ;}
-.parallax2 {left:-10vmin;position: relative;border-radius:30px   ;
-    ;width:90%;}
+.parallax2 img{position: relative;border-radius:30px   ;
+    ;width:100%;}
 .span1{color: rgb(6,143,202);font-size:7vmin ;font-weight: bold;}
 .span2{color:rgb(6,143,202);font-size: 7vmin;font-weight: bold;}
 .span3{margin-top: 30px;color: #ea9b9b;font-size: 10px;}
