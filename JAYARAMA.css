@@ -60,24 +60,43 @@ header {display: flex;
 /*----------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------*/
 
-.parallax{display: grid;grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
-    top:13vmin;position: relative;overflow: hidden;}
+.parallax
+{display: flex;
+    top:13vmin;position: relative;overflow: hidden;
+    background-color: #000000;
+    background-image: url("https://i.pinimg.com/564x/57/b4/f5/57b4f58ba996d6b338a52c9f0e5082f3.jpg");
+    background-size: cover;    height: 80vh; /* Set the height to 50% of the viewport height */
+background-repeat:no-repeat;
+width: 100%;
+   background-position:-50%;
+   background-attachment: fixed;
+}
 .parallax1 p{
-    transform: translateY(50%);
-    color: #040404;
+    color: #ffffff;
    margin-left: 13vmin;
     font-size: 7vmin;
-    animation: slideRight 2s linear 1 ;}
-.parallax2 img{position: relative;border-radius:30px   ;
-    ;width:100%;}
+    width:40%;
+    transform: translateY(30%);
+}
+
+.parallax2{
+    background-color: #000000ab;
+    position: relative;
+    z-index: 1;
+}
 .span1{color: rgb(6,143,202);font-size:7vmin ;font-weight: bold;}
 .span2{color:rgb(6,143,202);font-size: 7vmin;font-weight: bold;}
 .span3{margin-top: 30px;color: #ea9b9b;font-size: 10px;}
 /* Define initial state */
 
 /* Define the animation */
-
-
+.know_more
+{
+  font-size: 4vmin;
+  background-color: rgb(6,143,202);
+  padding: 8px;
+  border-radius: 7px;
+}
 
 
 

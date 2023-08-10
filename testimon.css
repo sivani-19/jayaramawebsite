@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 .Testimonials-list
   {
-     margin-top: 5%; 
-     margin-bottom: 2%;
-      text-align: center;
+      text-align: center;   
+  }
+  .testimon_parent{
+    background-color: rgba(0, 0, 255, 0.105);
+    padding-bottom: 50px;
   }
   .Testimonials-list h4{
     font-family: 'Merriweather', serif;
@@ -12,42 +15,18 @@
 }
 .Testimonials-list p{
   font-family: 'Merriweather', serif;
-
 }
-.Testimonials
-  {
-    display:flex;
-    text-align: center; 
-    gap:10px;  margin:30px;
-    
-  }
+.Testimonials {display:flex;}
 .Testimonials p 
    { 
-    margin: 8%;
-     font-family: 'Ysabeau Infant', sans-serif;
+    background:whitesmoke;
+    font-family: 'Nunito', sans-serif;
+
     }
-.Testimonials1
-{ 
-  background: linear-gradient(to bottom,rgba(255, 255, 255, 0.114) 25%,rgba(255, 255, 255, 0.989));
-    display: flex;flex:0 0 calc(100%/4);
-    border-radius: 12px;
-}
-
-.checked {
-    color: orange;
-}
-.half{
-    color:black;
-}
-
+.Testimonials1 { display: flex;flex:0 0 calc(100%/4);}
+.checked {color: orange;}
+.half{color:black;}
 .Testimonials1 p{font-size:1.3vw}
-.testimon{overflow-x: hidden;overflow-y: hidden;}
-
-.Testimonials1:hover
- {
-  background: whitesmoke;
-    transform:scale(1.2)
- }
- .Testimonials-list h4{
-  font-size:5vmin;
- }
+.Testimonials-list h4{font-size:5vmin;}
+.customer_name{
+  display: block;text-align: center;}

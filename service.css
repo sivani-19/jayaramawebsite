@@ -4,11 +4,10 @@
 #service{
     text-align: center;
     overflow: hidden;
-    padding: 2px;position:relative;
-    padding-top:20vmin;
-    width:95%;
-    margin-left: 5vmin;
+    padding: 25px;position:relative;
+    margin-top: 13vmin;
     display: inline-block;
+    background-color: #e8222215;
 }
 #service h2{
     font-family: 'Merriweather', serif;

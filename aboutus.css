@@ -3,11 +3,11 @@
 .view1{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
-    height:420px;
+    height:480px;
     padding-top: 40px;
     background:linear-gradient(to right,rgb(255, 255, 255) 19%,rgba(242, 213, 213, 0.379));
     position:relative;
-    top:7vmin;
+
 }
 .right1 h2{
     font-size: 5vmin;
@@ -25,7 +25,13 @@
 .left11{
     background:url("https://img.freepik.com/free-photo/creative-people-working-office_23-2147656715.jpg?size=626&ext=jpg&uid=R60976962&ga=GA1.2.1000128795.1690456022&semt=ais");
     background-size: cover; /* Adjust the background image size */
-    width: 100%;
+    width: 50%;
+    background-position: center;
     position: relative;
-    margin-left: 0vmin;
+    left:25%;
+    top:4%;
+    height: 80%;
+    border-radius: 12px;
+    border:0px solid black;
+    box-shadow: 0px 0px 10px 2px rgb(8, 148, 229);
 }
