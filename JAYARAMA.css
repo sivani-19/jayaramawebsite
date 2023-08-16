@@ -84,7 +84,7 @@ width: 100%;
     position: relative;
     z-index: 1;
 }
-.span1{color: rgb(6,143,202);font-size:7vmin ;font-weight: bold;}
+.span1{color: rgb(6,143,202);font-size:7vmin ;}
 .span2{color:rgb(6,143,202);font-size: 7vmin;font-weight: bold;}
 .span3{margin-top: 30px;color: #ea9b9b;font-size: 10px;}
 /* Define initial state */
@@ -92,12 +92,17 @@ width: 100%;
 /* Define the animation */
 .know_more
 {
-  font-size: 4vmin;
-  background-color: rgb(6,143,202);
+  font-size: 3vmin;
+  background-color: rgba(255, 255, 255, 0);
   padding: 8px;
-  border-radius: 7px;
+  border:1px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
 }
-
+a{
+    text-decoration: none;
+}
 
 
 

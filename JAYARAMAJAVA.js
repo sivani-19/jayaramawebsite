@@ -126,18 +126,7 @@ function sendemail() {
         // Initial call to moveSlider to set the initial position
         moveSlider(0);
         
-document.addEventListener("DOMContentLoaded", function() {
-    var messageButton = document.getElementById("messageButton");
-    var detailsSection = document.querySelector(".details");
-    var messagesection = document.getElementById("Getintouch2");
 
-    messageButton.addEventListener("click", function() {
-        detailsSection.style.visibility = "visible";
-        messagesection.style.visibility="hidden";
-        detailsSection.style.transform = "translateY(-50%)";
-
-    });
-});
 
 
 
