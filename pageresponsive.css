@@ -14,14 +14,7 @@
 .closed i{
   display: block;
 }
-.menu-btn
-{
-   display: flex;
-   justify-content: end;
-   position: relative;
-   top:3vh;
-   right: 5vh;
-}
+
 .menucolumn{
   position: absolute;
   display: block;

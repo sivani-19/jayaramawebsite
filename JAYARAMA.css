@@ -82,15 +82,12 @@ header
   }
   .menu-btn i 
   {
-    color:rgb(255, 0, 0);
-    background-color: #000000;
+    color:rgb(255, 255, 255);
     display: flex;
-    background-color: #ea9b9b;
    position: relative;
   }
   .closed i{
-    background-color: #ea9b9b;
-    color: #ff0000;
+    color: #ffffff;
   }
 .menucolumn li{
     top: 18vh;
@@ -111,16 +108,10 @@ header
  .menucolumn li{
  color: white;
  }
- .menu-btn i
- {
-    display: flex;
-    justify-content: end;
-    position: relative;
-    top:3vh;
-    left:5vh;
- }
+ 
  .closed{
   display: flex;
+  display: none;
  }
  .menucolumn li
  {
@@ -129,6 +120,14 @@ header
  }
  .mobile_menu i{
   display: none;
+  position: fixed;
+ }
+ .mobile_menu{
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  top:7vh;
+  right:7vh;
  }
   /* Rest of your existing CSS */
 

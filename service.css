@@ -23,19 +23,19 @@
 .service  {
     border: #000000;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,4fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
     position: relative;
     transition: 0.5s;
-    margin:0px auto;
-    gap: 20px 0; 
+    gap: 20px 20px; 
 
  }
 .service > div {
     background:rgba(1, 144, 210, 0.721);
     border-radius:15px;
     height:100%;
-    margin:10px;
+  
     padding:20px;
+    margin:0px auto;
     }
 .service h4{
   font-size: 2.4vmin;
@@ -73,8 +73,4 @@
   justify-content: center;
   overflow-x: hidden;
 }
-.service >div:last-child{
-  position: relative;
-  display: flex;
- 
-}
+
