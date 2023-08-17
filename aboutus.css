@@ -11,6 +11,7 @@
 }
 .right1 h2{
     font-size: 5vmin;
+    text-decoration: underline;
     margin-bottom: 5vmin;
     font-family: 'Libre Baskerville', serif;
 }
@@ -29,7 +30,7 @@
     background-position: center;
     position: relative;
     display: flex;
-    left:25%;
+    left:35vh;
     height: 100%;
     border-radius: 12px;
     border:0px solid black;

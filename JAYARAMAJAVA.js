@@ -34,7 +34,9 @@ function sendemail() {
  
     
      document.addEventListener("DOMContentLoaded", function() {
-        const menuBtn = document.getElementById("menu_btn");
+      
+     
+        const menuBtn = document.getElementById("menu_bar");
         const closeBtn = document.getElementById("closed");
         const menuColumn = document.getElementById("menucolumn");
     
@@ -139,37 +141,4 @@ indicators1.forEach((indicator, index) => {
 });
 
 updateSliderPosition1();
-
-const cardSlider = document.querySelector('.card-slider');
-const leftButton = document.querySelector('.left-button');
-const rightButton = document.querySelector('.right-button');
-const indicators = document.querySelectorAll('.indicator');
-
-let currentIndex = 0;
-
-function updateSliderPosition() {
-  cardSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
-  indicators.forEach((indicator, index) => {
-    indicator.classList.toggle('active', index === currentIndex);
-  });
-}
-
-leftButton.addEventListener('click', () => {
-  currentIndex = (currentIndex - 1 + cardSlider.children.length) % cardSlider.children.length;
-  updateSliderPosition();
-});
-
-rightButton.addEventListener('click', () => {
-  currentIndex = (currentIndex + 1) % cardSlider.children.length;
-  updateSliderPosition();
-});
-
-indicators.forEach((indicator, index) => {
-  indicator.addEventListener('click', () => {
-    currentIndex = index;
-    updateSliderPosition();
-  });
-});
-
-updateSliderPosition();
 

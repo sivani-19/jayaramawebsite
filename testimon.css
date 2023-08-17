@@ -5,20 +5,24 @@
   {
       text-align: center;  
       position: relative;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
   }
   .testimon_parent{
-   
+    width:100%;
     padding-bottom: 50px;
   }
   .Testimonials-list h4{
     font-family: 'Merriweather', serif;
     text-decoration: underline;
+   
 }
 .Testimonials-list p{
   font-family: 'Merriweather', serif;
 }
-.Testimonials {display:flex;}
+.Testimonials 
+{
+  display:flex;
+}
 .Testimonials p 
    { 
     background:whitesmoke;
@@ -31,47 +35,65 @@
   text-align: center;
   position: relative;
   justify-content: center;}
-.Testimonials1 p{
+.Testimonials1 p
+{
+  background-color:rgb(1,145,210);
   width: 80%;
-  padding: 20px;}
-.checked {
-  color: orange;}
+  padding: 30px;
+}
+.checked 
+{
+  color: orange;
+}
 .half{
-  color:black;}
-.Testimonials1 p{
-  font-size:1.3vw}
-.Testimonials-list h4{
-  font-size:5vmin;}
-.customer_name{
+  color:black;
+}
+.Testimonials1 p
+{
+  font-size:1.3vw;
+}
+.Testimonials-list h4
+{
+  margin-top: 50px;
+  font-size:5vmin;
+}
+.customer_name
+{
   display: block;
-  text-align: center;}
-  
-  .testimon{
-    width: 100%;
+  text-align: center;
+}
+.testimon
+  {
+   margin: 0px auto;
+    width: 80%;
     overflow: hidden;
-   
   }
-  .testimon_parent  {
+  .testimon_parent  
+  {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
   }
-.testimon_parent span i{
-  position: absolute;
-margin-top:-5vh;
-cursor:pointer;
+.testimon_parent span{
+z-index: 5;
+
+}
+.testimon_parent i{
+position: absolute;
 }
 .left-arrow i{
-  
+  background-color: red;
   border-radius: 50%;
   padding: 20px;
-  z-index: 2;
-margin-left:12vh;
+  z-index: 5;
+margin-top: -5vh;
 }
 .right-arrow i{
+  background-color: red;
   border-radius: 50%;
   padding: 20px;
-  z-index: 2;
-  right:12vh;
+  z-index: 5;
+  margin-top: -5vh;
+  right: 0px;
 }
 

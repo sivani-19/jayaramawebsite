@@ -1,13 +1,36 @@
 @media (max-width:480px)
 {
-  .menu
+ .menu
 {
   display: none;
 }
-.menu-btn i{
+.parallax1 p{
+  font-size: 1.2vh;
+}
+.menu-btn i
+{
   display: block;
- }
- .service > div {
+}
+.closed i{
+  display: block;
+}
+.menu-btn
+{
+   display: flex;
+   justify-content: end;
+   position: relative;
+   top:3vh;
+   right: 5vh;
+}
+.menucolumn{
+  position: absolute;
+  display: block;
+  width: 100%;
+  
+}
+
+ .service > div 
+{
   flex: 0 0 calc(100% / 1 - 20px);
- }
+}
 }
