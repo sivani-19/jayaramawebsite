@@ -4,9 +4,23 @@
 {
   display: none;
 }
-.parallax1 p{
-  font-size: 1.2vh;
+.parallax p{
+ width: 100%;
+ top: 30%;
+ text-align: center;
+ left: auto;
+
 }
+.know_more{
+  font-size: 1.2rem;
+  position: relative;
+  margin-top: 5%;
+}
+.span1
+{
+  font-size: 1.2rem;
+}
+
 .menu-btn i
 {
   display: block;
@@ -25,5 +39,48 @@
  .service > div 
 {
   flex: 0 0 calc(100% / 1 - 20px);
+}
+.service h4{
+  font-size: 1rem;
+}
+#service h2{
+font-size: 1.8rem;
+}
+.left11{
+  width: 100%;
+  left: auto;
+  height: 100%;
+}
+
+.Testimonials1 p
+{
+  width: 50%;
+  font-size:1rem;
+  padding: 10px;
+}
+.testimon_parent i
+{
+  position: absolute;
+  padding: 8px;
+  margin-top: -2vh;
+}
+.left-arrow{
+  position: absolute;
+  left:0%;
+}
+.right-arrow{
+  position: absolute;
+  right: 0%;
+}
+.testimon{
+  width: 100%;
+}
+.right1{
+  width: 100%;
+}
+.right1 p{
+  left:0%;
+ font-size: 3vh;
+  text-align: center;
 }
 }

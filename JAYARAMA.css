@@ -7,19 +7,20 @@ html {scroll-behavior: smooth;}
   padding:0px;/*acts as a space */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
- 
 }
 .body{
     min-height: 10v;
     width:100vw;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
+
     }
 
 header 
   {
     display: flex;
+    overflow:hidden ;
     align-items: center;
     justify-content: space-between;
     padding: 0px;
@@ -135,56 +136,44 @@ header
 /*----------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------*/
 
-.parallax
+.parallax2
 {   
+    overflow: hidden;
     display: flex;
-    position: relative;overflow: hidden;
-    background-color: #000000;
-    background-image: url("https://i.pinimg.com/564x/57/b4/f5/57b4f58ba996d6b338a52c9f0e5082f3.jpg");
-    background-size: cover;    height: 80vh; /* Set the height to 50% of the viewport height */
+    position: relative;    
+    background: url("https://i.pinimg.com/564x/57/b4/f5/57b4f58ba996d6b338a52c9f0e5082f3.jpg"),rgba(0, 0, 0, 0.603);
+    background-blend-mode: multiply;
+    background-size: cover;  
+    height: 80vh; /* Set the height to 50% of the viewport height */
     background-repeat:no-repeat;
-    width: 100%;
-    background-position:-50%;
+    width:100%;
     background-attachment: fixed;
 }
 .parallax1 p{
-    color: #ffffff;
+    
     font-size: 7vmin;
-    width:40%;
+    position: relative;
     transform: translateY(50%);
-    position: relative;
-}
-
-.parallax2{
-    background-color: #000000ab;
-    position: relative;
-    z-index: 1;
+    width:40%;
+    left:5%;
 }
 .span1{
   color: rgb(6,143,202);
-  font-size:7vmin ;
+  font-size:5.5vmin ;
 }
-.span2{
-  color:rgb(6,143,202);
-  font-size: 7vmin;
-  font-weight: bold;}
-.span3{
-  margin-top: 30px;
-  color: #ea9b9b;
-  font-size: 10px;
-}
+
 /* Define initial state */
 
 /* Define the animation */
 .know_more
 {
   font-size: 3vmin;
-  background-color: rgba(255, 255, 255, 0);
   padding: 8px;
   border:1.5px solid rgb(229, 37, 37);
   color: white;
   text-decoration: none;
   border-radius: 20px;
+  text-decoration: none;
 }
 a{
     text-decoration: none;
