@@ -1,122 +1,13 @@
-@media (max-width: 768px) {
-    .container {width: 100%;}
-    .container h2,
-    .container p {font-size: 18px; }
-    .menu li {margin-right: 30px;}
-    .menu { display:block;}
-    .Adressoffics p,
-    .Adressoffics pre {padding-left: 10px;font-size: 4vw;}
-    .navbar__container img {max-width: 50%;}
-    .Adressoffics {margin-left: 0;width: 100%;}
-    .data input,
-    .Message textarea {max-width: 100%;}
-    .Testimonials{display: flex;flex-direction: row;flex: 0 0 calc(100%/3 - 5px);gap: 10px;}
-    .service > div {
-      flex: 0 0 calc(100% / 3 - 20px); /* Adjust the card width and margin as needed depends on the page scree */
-      height: 300px;margin: 10px;background-color: #f2f2f2;border: 1px solid #ccc; border-radius: 5px;}
-  }
-  /*-------------------------------------------------------------------------------
-  *********************************************************************************
-  *********************************************************************************
-  ----------------------------------------------------------------------------------*/
-  @media (max-width: 480px) {
-    .container h2,
-    .container p {font-size: 16px;}
-    header{height: 70px;}
-    .Adressoffics {padding: 0px;}
-    .menucolumn{text-align: center;justify-content: center;padding: 0 60px;}
-    .menu { display:none;}
-    .menu-btn{display: block;}
-
-    .service > div {flex: 0 0 100%; /* Adjust the card width and margin as needed depends on the page scree */
-      height: fit-content;background-color: #f2f2f2; margin-left: -5px; width: 20%;font-size: 3vw; }
-    .Valutions p{font-size: 100%;}
-    .menu-btn,.closed{position: absolute;display: block;margin: 10px 20px;}
-    .details{margin-left: 0%;}
-    #service{padding: 10px;justify-content: center;}
-    .service > div{gap:20px;width: 100%; padding: 0 10px; margin: 0 10px;}
-    .navbar__container img {width: 25%;display: flex;margin-left: 0;position: relative;}
-    .menu-btn,.closed{display: flex;position: absolute;right:8%;bottom :-4%;z-index:4;}
-    #Getintouch{display: flex;flex-direction: column;position: relative;justify-content: center;}
-    .Adressoffics{width: 80%;justify-content: center;left: 0%; transform: translate(13%,20%);}
-    .data input,.data textarea{ width: 80%;}
-    .testimon h4{font-size: 7vw;}
-    .Adressoffics{width:fit-content;}
-    .Adressoffics p,
-    .Adressoffics pre {padding-left: 10px;font-size: 4vw;}}
-    
-  /*-------------------------------------------------------------------------------
-  *********************************************************************************
-  *********************************************************************************
-  ---------------------------------------------------------------------------------*/
-  @media (min-width: 1200px) {
-   header {padding: 30px;}
-  .menu li {margin-right: 40px;}
-  .Testimonials1 {flex: 0 0 calc(100% / 3 - 10px);}
-  .Testimonials p{font-size: 1.3vw;}
-  #service {justify-content: flex-start;margin-left: 100px;margin-right: 100px;}
-  .service > div {flex: 0 0 calc(100% / 5 - 20px);}
-  .service p{font-size: 1vw;}
-  .Touch1 {padding: 30px;}
-  .Adressoffics p{font-size: 1.5vw;}
-  .Adressoffics{margin-top: 1.5%;}
-  }
-  
-  @media (min-width: 577px) and (max-width: 992px) {
-  .menu-btn {display: flex;}
-  .closed {display: none;}
-  .navbar__container img {
-    max-width: 30%;height: auto;display: block;margin-left: 0;margin-right: auto;}
-  .menu-section a {padding: 10px;}
-  #Getintouch{display: flex;flex-direction: column;position: relative;justify-content: center;}
-  .Adressoffics{width: 80%;justify-content: center;left: 0%;transform: translate(13%,20%);}
-  .Adressoffics p{font-size: 1.8vw;}
-  
-  }
-  @media (min-width:768px) and (max-width: 992px) {
-     header {padding: 25px;}
-     
-    
-    .Testimonials1 {flex: 0 0 calc(100% / 3 - 20px);}
-    .service > div{gap:20px;width: 100%; padding: 0 10px; margin: 0 10px;height: 300px;}
- 
-    #service {justify-content: center; }
-    .Valutions {margin-top:2% ;}
-   .service > div {flex: 0 0 calc(100% / 3 - 20px);margin-top: 2%;}
-    .Touch1 {padding: 25px;}
-  .menu-btn {display: flex;}
-  .closed {display: none;}
-  .closed {display: none;}
-  .navbar__container img {max-width: 50%; height: auto; display: block; margin-left: 0;margin-right: auto;}
-
-   #Getintouch .Adressoffics{justify-content: center;margin-left: -14px;}
-   .Adressoffics p{font-size: 1.9vw;}
-  
-  }
-  
-   
-  /*-------------------------------------------------------------------------------
-  *********************************************************************************
-  *********************************************************************************
-  ---------------------------------------------------------------------------------*/
-  
-  /*-------------------------------------------------------------------------------
-  *********************************************************************************
-  *********************************************************************************
-  ---------------------------------------------------------------------------------*/
-  @media (max-width: 576px) {
-
-  
-     .Adressoffics p{padding-left: 10px;font-size: 2.2vw;}
-  .closed {display: none;}
-  
-  #Getintouch{display: flex;flex-direction: column;position: relative;justify-content: center;}
-  .Adressoffics{width: 80%;justify-content: center;left: 0%;transform: translate(13%,20%);}}
-  /*-------------------------------------------------------------------------------
-  *********************************************************************************
-  *********************************************************************************
-  ---------------------------------------------------------------------------------*/
-  @media (min-width:992px) and (max-width:1200px) {
-    .service p{font-size: 1.2vw;}
-      .menu ul li{position: relative;display: flex;flex-direction: column;margin: 20px;}
-  }
+@media (max-width:480px)
+{
+  .menu
+{
+  display: none;
+}
+.menu-btn i{
+  display: block;
+ }
+ .service > div {
+  flex: 0 0 calc(100% / 1 - 20px);
+ }
+}

@@ -3,10 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 .Testimonials-list
   {
-      text-align: center;   
+      text-align: center;  
+      position: relative;
+      margin-bottom: 20px;
   }
   .testimon_parent{
-    background-color: rgba(0, 0, 255, 0.105);
+   
     padding-bottom: 50px;
   }
   .Testimonials-list h4{
@@ -23,10 +25,53 @@
     font-family: 'Nunito', sans-serif;
 
     }
-.Testimonials1 { display: flex;flex:0 0 calc(100%/4);}
-.checked {color: orange;}
-.half{color:black;}
-.Testimonials1 p{font-size:1.3vw}
-.Testimonials-list h4{font-size:5vmin;}
+.Testimonials1 { 
+  display: flex;
+  flex:0 0 calc(100%/1);
+  text-align: center;
+  position: relative;
+  justify-content: center;}
+.Testimonials1 p{
+  width: 80%;
+  padding: 20px;}
+.checked {
+  color: orange;}
+.half{
+  color:black;}
+.Testimonials1 p{
+  font-size:1.3vw}
+.Testimonials-list h4{
+  font-size:5vmin;}
 .customer_name{
-  display: block;text-align: center;}
+  display: block;
+  text-align: center;}
+  
+  .testimon{
+    width: 100%;
+    overflow: hidden;
+   
+  }
+  .testimon_parent  {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+.testimon_parent span i{
+  position: absolute;
+margin-top:-5vh;
+cursor:pointer;
+}
+.left-arrow i{
+  
+  border-radius: 50%;
+  padding: 20px;
+  z-index: 2;
+margin-left:12vh;
+}
+.right-arrow i{
+  border-radius: 50%;
+  padding: 20px;
+  z-index: 2;
+  right:12vh;
+}
+

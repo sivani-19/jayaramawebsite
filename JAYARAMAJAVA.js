@@ -1,3 +1,4 @@
+AOS.init();
 function sendemail() {
   const subject = "Email from Website";
   const body =
@@ -32,37 +33,24 @@ function sendemail() {
      ; })*/
  
     
+     document.addEventListener("DOMContentLoaded", function() {
+        const menuBtn = document.getElementById("menu_btn");
+        const closeBtn = document.getElementById("closed");
+        const menuColumn = document.getElementById("menucolumn");
     
-      const menuBtn = document.querySelector('.menu-btn');
-      const menu = document.querySelector('.menucolumn');
-      const closebtn=document.getElementById('closed');
-      
-      let isMenuOpen = false;
-      let isclose=false;
-      
-      menuBtn.addEventListener('click', function() {
-        if (isMenuOpen) {
-          menu.style.display = 'none';
-        } else {
-          menu.style.display = 'block';
-          closebtn.style.display='block';
-          menuBtn.style.display='none';
-        }
-        isMenuOpen = !isMenuOpen;
-        isclose=!isclose;
-       
-      });
-      closebtn.addEventListener('click', function() {
-        if (isclose) {
-          closebtn.style.display='none';
-          menu.style.display = 'none';
-          menuBtn.style.display='block';
-        } else {
-          closebtn.style.display='none';
-        }
-        isMenuOpen = !isMenuOpen;
-        isclose=!isclose;
-      });
+        menuBtn.addEventListener("click", function() {
+            menuBtn.style.display = "none";
+            closeBtn.style.display = "block";
+            menuColumn.style.display = "block"; // Show the menu items
+        });
+    
+        closeBtn.addEventListener("click", function() {
+            closeBtn.style.display = "none";
+            menuBtn.style.display = "block";
+            menuColumn.style.display = "none"; // Hide the menu items
+        });
+    });
+    
       let currentSlide = 0;
       const slides = document.querySelectorAll('.DESIGN');
       function goToSlide(index) {
@@ -72,20 +60,6 @@ function sendemail() {
       function prevSlide() {currentSlide = (currentSlide - 1 + slides.length) % slides.length;goToSlide(currentSlide);}
       function nextSlide() {currentSlide = (currentSlide +1) % slides.length;goToSlide(currentSlide);}
 
-
-         function initMap() {
-            var location = { lat: 17.4585, lng: 78.4524 }; // Replace with your desired latitude and longitude
-
-            var map = new google.maps.Map(document.getElementById('map'), {
-                center: location,
-                zoom: 5 // Adjust the zoom level as needed
-            });
-
-            var marker = new google.maps.Marker({
-                position: location,
-                map: map
-            });
-        }
         const slider = document.querySelector('.service');
         let currentPosition = 0;
         const slideWidth = slider.firstElementChild.offsetWidth  // Adjusted for margins
@@ -134,4 +108,68 @@ function sendemail() {
 
 
 // Add smooth scrolling to all links
+const Testmonials = document.querySelector('.Testimonials');
+const leftButton11 = document.querySelector('.left-arrow');
+const rightButton11 = document.querySelector('.right-arrow');
+const indicators1 = document.querySelectorAll('.indicator');
+let currentIndex1 = 0;
+
+function updateSliderPosition1() {
+  Testmonials.style.transform = `translateX(-${currentIndex1 * 100}%)`;
+  indicators1.forEach((indicators1, index) => {
+    indicators1.classList.toggle('active', index === currentIndex1);
+  });
+}
+
+leftButton11.addEventListener('click', () => {
+  currentIndex1 = (currentIndex1 - 1 + Testmonials.children.length) % Testmonials.children.length;
+  updateSliderPosition1();
+});
+
+rightButton11.addEventListener('click', () => {
+  currentIndex1 = (currentIndex1 + 1) % Testmonials.children.length;
+  updateSliderPosition1();
+});
+
+indicators1.forEach((indicator, index) => {
+  indicator1.addEventListener('click', () => {
+    currentIndex1 = index;
+    updateSliderPosition1();
+  });
+});
+
+updateSliderPosition1();
+
+const cardSlider = document.querySelector('.card-slider');
+const leftButton = document.querySelector('.left-button');
+const rightButton = document.querySelector('.right-button');
+const indicators = document.querySelectorAll('.indicator');
+
+let currentIndex = 0;
+
+function updateSliderPosition() {
+  cardSlider.style.transform = `translateX(-${currentIndex * 100}%)`;
+  indicators.forEach((indicator, index) => {
+    indicator.classList.toggle('active', index === currentIndex);
+  });
+}
+
+leftButton.addEventListener('click', () => {
+  currentIndex = (currentIndex - 1 + cardSlider.children.length) % cardSlider.children.length;
+  updateSliderPosition();
+});
+
+rightButton.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % cardSlider.children.length;
+  updateSliderPosition();
+});
+
+indicators.forEach((indicator, index) => {
+  indicator.addEventListener('click', () => {
+    currentIndex = index;
+    updateSliderPosition();
+  });
+});
+
+updateSliderPosition();
 

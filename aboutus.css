@@ -3,23 +3,23 @@
 .view1{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
-    height:480px;
+    height:50%;
     padding-top: 40px;
-    background:linear-gradient(to right,rgb(255, 255, 255) 19%,rgba(242, 213, 213, 0.379));
+    padding-bottom: 40px;
     position:relative;
 
 }
 .right1 h2{
     font-size: 5vmin;
     margin-bottom: 5vmin;
+    font-family: 'Libre Baskerville', serif;
 }
 .right1{
   width:80%;
 }
 .right1 p{
     font-family: 'IBM Plex Serif', serif;
-    font-style: oblique;
-    font-size: 3vmin;
+    font-size: 2.5vmin;
     transform: translateX(10%);
 }
 .left11{
@@ -28,10 +28,24 @@
     width: 50%;
     background-position: center;
     position: relative;
+    display: flex;
     left:25%;
-    top:4%;
-    height: 80%;
+    height: 100%;
     border-radius: 12px;
     border:0px solid black;
     box-shadow: 0px 0px 10px 2px rgb(8, 148, 229);
+}
+#readMoreText{
+    display: none;
+
+}
+#readMoreButton{
+    color: white;
+    background-color: rgba(6,143,202);
+    font-size: 1rem;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: 2%;
+    cursor: pointer;
 }

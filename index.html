@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="testimon.css"/>
     <link rel="stylesheet" href="aboutus.css"/>
     <link rel="stylesheet" href="getintouch.css"/>
+    <link rel="stylesheet" href="pageresponsive.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body> 
 <header class="Main_menu">
@@ -40,7 +44,7 @@
         <i class="fa-solid fa-xmark"></i>
     </div>
 </div>
-<nav class="menucolumn direction">
+<nav class="menucolumn direction" id="menucolumn">
     <ul>
       <a href="#"  ><li>Home</li></a>
         <a href="#aboutus"> <li>About</li></a>
@@ -64,10 +68,16 @@
    </div>
   
 </div>
-<div class="services-list" id="service"><h2>Our Services</h2>
-        <div class="service">
+<div class="services11">
+
+    <span class="buttonleft" onclick="moveSlider(-1)">
+        <img src="./allimages/left-arrow.png" alt="left-arrow">
+        </span>
+<div class="services-list" id="service" ><h2>Our Services</h2>
+    
+        <div class="service"data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" >
             <div class="Residential Valutions">
-        
         <div class="Valutions" id="Valutions">
       <img src="./allimages/house.png" alt="home">
     </div>
@@ -89,8 +99,7 @@
             <img src="./allimages/factory (1).png" alt="factory">
         </div>
         <h4>Industrial Valutaions</h4>
-        <p>process of determining the market value of industrial properties, 
-            which typically include manufacturing facilities, warehouses, distribution centers, 
+        <p>Typically include manufacturing facilities, warehouses, distribution centers, 
             industrial parks, and other properties used for industrial purposes.</p>
     
     </div>
@@ -129,8 +138,9 @@
         </div>
         <h4>Visa valuation</h4>
         <p>
-            refer to the assessment of the value of a visa or immigration program. In the context of immigration.
-            visa valuations are carried out to determine the economic value and impact of specific visa programs or categories
+             The value of a visa or
+             immigration program.Visa valuations are carried out to determine the economic
+             value and impact of specific visa programs or categories
         </p>
     </div>
     <div class="Cost of construction Valutions for IncomeTax purposes ">
@@ -140,8 +150,7 @@
         <h4>Cost of construction Valution for IncomeTax</h4>
         <p>
             Determining the value of a property's construction or improvement costs. 
-            It is relevant for income tax purposes when calculating deductions or allowances related
-            to property construction or improvements.
+            It is relevant for income tax purposes when calculating deductions or allowances related.
         </p>
     </div>
     <div class="L&B Valutions Related Court">
@@ -150,9 +159,9 @@
         </div>
         <h4>L&B Valuation Related Court</h4>
         <p>
-           Refers to the valuation of land and buildings conducted in the context of legal disputes or litigation
-            valuations are carried out to determine the market value or compensation amount associated
-             with a property that is the subject of a legal case
+           The valuation of land and buildings conducted in the context of legal disputes or litigation
+          To determine the market value or compensation amount associated
+           with a property that is the subject of a legal case
         </p>
     </div>
     <div class="Valutions for liquidation purpose">
@@ -161,95 +170,20 @@
         </div>
         <h4>Valuation for liquidation purpose</h4>
         <p>
-            Refers to the process of determining the value of assets or a company's assets during the liquidation process
-            occurs when a company is unable to meet its financial obligations and seeks to sell off its assets
+            To the process of determining the value of assets or a 
+            company's assets during the liquidation process
+            occurs when a company is unable to meet its financial
+            obligations and seeks to sell off its assets
         </p>
     </div>
 </div>
-    <div class="button-container">
-        <div class="buttonleft" onclick="moveSlider(-1)">
-        <img src="./allimages/left-arrow.png" alt="left-arrow">
-        </div>
-        <div class="buttonright" onclick="moveSlider(1)">
+</div>
+        <span class="buttonright" onclick="moveSlider(1)">
         <img src="./allimages//right-arrow.png" alt="right-arrow">
-        </div>
-      </div>
-    </div>
-
-   <div class="testimon_parent">
-      <div class="testimon">
-        <div class="Testimonials-list"> <h4>Testimonials</h4>
-            <p>Choose I&N INTERIORS To Design Your Home/Office</p></div>
-       <div class="Testimonials t0">
-        <div class="Testimonials1 0">
-<p>
-    I found M/s Jayarama Associates to be a very professional and responsive organisation.
-     I experienced Mr. Madhava Reddy, with whom I was dealing, to be very methodical and systematic professional. 
-     I was delighted that he ensured that the whole exercise of 
-     valuation of my property was completed within the stipulated time lines.
-     <br>
-     <span class="customer_name">
-     <span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<br>Ramchandran TV
-</span>
-</p>
-        </div>
-          <div class ="Testimonials1 t1">
-            <p class ="Testimonials11">
-                They know how to respect their customers and in these covid times, they are very good at taking responsibilities &
-                 will respond quickly.
-                Jayram Garu is a very good person. Sir, Please never pause your gardening habits.
-
-                One line: Best associates for the valuer of your properties in Hyderabad.<br><br>
-                <span class="customer_name">
-            
-                <span class="fa fa-star checked"></span>
-           <span class="fa fa-star checked"></span>
-           <span class="fa fa-star checked"></span>
-           <span class="fa fa-star checked"></span>
-           <span class="fa fa-star checked"></span><br>
-           Anudeep
         </span>
-            </p>
-          </div>
-          <div class ="Testimonials1 t2">
-            <p>
-                Great work spirit<BR>
-             Receiving customers with smile <br>
-          All I can do is offer my gratitude and 
-        appreciation for your leadership and for you being such a wonderful boss to ur staff madhava reddy sir....<br> ❤Jaya Rama
-<br>  <br>      <span class="customer_name">Venky Ashadapu<br>
+      </div>
+   
 
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-</span>
-            </p>
-          </div>
-          <div class ="Testimonials1 3 t3">
-            <p>
-                Thank you for providing excellent service. a knowledgeable and efficient company in the appraisal services.
-                 Jayarama Associates went above and beyond my expectations to deliver the valuation within time.<br>
-                  Great job.<br><br> <br><span class="customer_name">Srinivasula Polimera<br>
-                  
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-            </span>
-            </p>
-            </div>
-      
-            
-        </div>
-    </div>
 </div>
   <!--  <div class="copywright">
         <p>JAYARAMA ASSOCIATES </p>
@@ -257,10 +191,10 @@
     </div>-->
 
     <div class="view1" id="aboutus1"> 
-        <div class="left11">
+        <div class="left11" data-aos="fade-right"  data-aos-anchor-placement="top-bottom">
              
         </div>
-        <div class="right1">
+        <div class="right1" data-aos="fade-left"  data-aos-anchor-placement="top-bottom">
             <h2> About Us</h2>
             <p>we specialize in providing comprehensive valuation services tailored to meet your unique needs.
                  Whether you require land and building valuation, wealth tax assessment, valuation for visa purposes, 
@@ -278,7 +212,92 @@
               
         </div> 
       </div>
-      <div class="Get In Touch" id="Getintouch">
+      
+        <div class="testimon">
+          <div class="Testimonials-list"> <h4>Testimonials</h4>
+              </div>
+              <div class="flex_test">
+              <div class="testimon_parent">
+                <span class="left-arrow" data-aos="fade-right"  data-aos-anchor-placement="top-bottom" >
+                    <i class="fa-solid fa-arrow-left"></i>
+                </span>
+         <div class="Testimonials t0" data-aos="zoom-in"  data-aos-anchor-placement="top-bottom"  >
+          <div class="Testimonials1 0">
+  <p>
+      I found M/s Jayarama Associates to be a very professional and responsive organisation.
+       I experienced Mr. Madhava Reddy, with whom I was dealing, to be very methodical and systematic professional. 
+       I was delighted that he ensured that the whole exercise of 
+       valuation of my property was completed within the stipulated time lines.
+       <br>
+       <span class="customer_name">
+       <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <br>Ramchandran TV
+  </span>
+  </p>
+          </div>
+            <div class ="Testimonials1 t1">
+              <p class ="Testimonials11">
+                  They know how to respect their customers and in these covid times, they are very good at taking responsibilities &
+                   will respond quickly.
+                  Jayram Garu is a very good person. Sir, Please never pause your gardening habits.
+  
+                  One line: Best associates for the valuer of your properties in Hyderabad.<br><br>
+                  <span class="customer_name">
+              
+                  <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span><br>
+             Anudeep
+          </span>
+              </p>
+            </div>
+            <div class ="Testimonials1 t2">
+              <p>
+                  Great work spirit<BR>
+               Receiving customers with smile <br>
+            All I can do is offer my gratitude and 
+          appreciation for your leadership and for you being such a wonderful boss to ur staff madhava reddy sir....<br> ❤Jaya Rama
+  <br>  <br>      <span class="customer_name">Venky Ashadapu<br>
+  
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  </span>
+              </p>
+            </div>
+            <div class ="Testimonials1 3 t3">
+              <p>
+                  Thank you for providing excellent service. a knowledgeable and efficient company in the appraisal services.
+                   Jayarama Associates went above and beyond my expectations to deliver the valuation within time.<br>
+                    Great job.<br><br> <br><span class="customer_name">Srinivasula Polimera<br>
+                    
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+              </span>
+              </p>
+              </div>
+          </div>
+      
+       <span class="right-arrow" data-aos="fade-left"  data-aos-anchor-placement="top-bottom">
+            <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="Get In Touch" id="Getintouch" data-aos="fade-left">
         <div class="Adressoffics">
          <span class="officeheads_parent"><p><i class="fa-solid fa-phone"></i></p><p> <span class="officeheads">phone:</span><br>098666 69777</p></span>
          <span class="officeheads_parent"><p><i class="fa-regular fa-envelope"></i></p><p><span class="officeheads">Mail:</span><br>sivanigulla@gmail.com</p></span>
@@ -311,6 +330,9 @@
     </div>
    
      
+</div>
+<div class="copyright_issue">
+
 </div>
     <script src="JAYARAMAJAVA.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
