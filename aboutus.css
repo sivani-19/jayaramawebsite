@@ -1,30 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
-.view1{
-    display:grid;
+#aboutus1{
+    border: #000000;
+    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
-    height:100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    position:relative;
-
-}
-.right1 h2{
-    font-size: 5vmin;
-    text-decoration: underline;
-    margin-bottom: 5vmin;
-    font-family: 'Libre Baskerville', serif;
-}
-.right1{
-  width:80%;
-}
-.right1 p{
-    font-family: 'IBM Plex Serif', serif;
-    font-size: 2.5vmin;
-    transform: translateX(10%);
+    position: relative;
+    transition: 0.5s;
+    gap: 20px 20px; 
+   margin-top: 5vmin;
 }
 .left11{
-    background:url("https://img.freepik.com/free-photo/creative-people-working-office_23-2147656715.jpg?size=626&ext=jpg&uid=R60976962&ga=GA1.2.1000128795.1690456022&semt=ais");
-    background-size: cover; /* Adjust the background image size */
-    box-shadow: 0px 0px 10px 2px rgb(8, 148, 229);
+    display: flex;
+    justify-content: center;
+}
+.left11 img{
+    object-fit: cover;
+    width:80%;
+
+}
+h2{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size:5vmin;
+    text-decoration: underline;
+    margin-top: 13vmin;
+}
+.right1{
+   display: flex;
+   align-self:center;
+}
+.right1 p{
+    font-size: 0.9rem;
+font-family: 'Noto Serif', serif;
+width:80%;
 }

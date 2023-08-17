@@ -5,16 +5,17 @@
   display: none;
 }
 .parallax p{
- width: 100%;
+ width: 90%;
  top: 30%;
  text-align: center;
  left: auto;
-
+margin: 0px auto;
 }
 .know_more{
+  text-align: center;
   font-size: 1.2rem;
   position: relative;
-  margin-top: 5%;
+  top: 80vh;
 }
 .span1
 {
@@ -46,17 +47,11 @@
 #service h2{
 font-size: 1.8rem;
 }
-.left11{
-  width: 100%;
-  left: auto;
-  height: 100%;
-}
 
 .Testimonials1 p
 {
   width: 50%;
-  font-size:1rem;
-  padding: 10px;
+  font-size:1.2rem;
 }
 .testimon_parent i
 {
@@ -73,14 +68,20 @@ font-size: 1.8rem;
   right: 0%;
 }
 .testimon{
-  width: 100%;
+  width: 70%
 }
-.right1{
-  width: 100%;
+.left11{
+  margin:0px auto;
+  display: flex;
+  justify-content: center;
+}
+.left11 img{
+  object-fit: cover;
+  width:90%; 
 }
 .right1 p{
-  left:0%;
- font-size: 3vh;
-  text-align: center;
+  width: 100%;
 }
+
+
 }

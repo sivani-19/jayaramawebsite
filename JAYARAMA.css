@@ -14,9 +14,7 @@ html {scroll-behavior: smooth;}
     margin: 0;
     padding: 0;
     overflow: hidden;
-
-    }
-
+}
 header 
   {
     display: flex;
@@ -167,8 +165,7 @@ header
 /* Define the animation */
 .know_more
 {
-  font-size: 3vmin;
-  padding: 8px;
+  font-size: 4vmin;
   border:1.5px solid rgb(229, 37, 37);
   color: white;
   text-decoration: none;
