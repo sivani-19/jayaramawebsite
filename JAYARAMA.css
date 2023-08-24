@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&family=Ysabeau+SC:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-html {scroll-behavior: smooth; height:100%;
+html { height:100%;
   width:100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;}
-  ::-webkit-scrollbar{
-    display: none;
-  }
 *{
   box-sizing: content-box;/* Prevent horizontal overflow */ 
   margin: 0px;/*it mentions as width*/
   padding:0px;/*acts as a space */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  box-sizing: border-box;
+ 
 }
 .body{
     height:100%;
@@ -26,7 +23,7 @@ html {scroll-behavior: smooth; height:100%;
 header 
   {
     display: flex;
-    overflow:hidden ;
+    overflow-x:hidden ;
     align-items: center;
     justify-content: space-between;
     padding: 0px;
@@ -34,7 +31,6 @@ header
     width:100%;position: fixed;
     z-index: 1000;height: 100px;
     border-bottom:1px solid #2c2c2c;
-    overflow: hidden;
   }
 .navbar__container img
  {
@@ -135,16 +131,14 @@ header
   justify-content: end;
   position: absolute;
   top:7vh;
-  right:7vh;
+  right:0vh;
  }
   /* Rest of your existing CSS */
 
 
 /*----------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------*/
-.parallax{
-  overflow-x:hidden ;
-}
+
 .parallax2
 {   
     overflow: hidden;

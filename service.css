@@ -9,7 +9,7 @@
     margin-top: 13vmin;
     display: inline-block;
     width:90%;
-    
+  left:0%;
 }
 #service h2{
     font-family: 'Merriweather', serif;
@@ -23,7 +23,7 @@
 .service  {
     border: #000000;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,4fr));
     position: relative;
     transition: 0.5s;
     gap: 20px 20px; 
@@ -33,7 +33,7 @@
     background:rgba(1, 144, 210, 0.721);
     border-radius:15px;
     height:100%;
-  
+  left: 0%;
     padding:20px;
     margin:0px auto;
     }

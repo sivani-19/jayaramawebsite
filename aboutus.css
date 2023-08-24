@@ -27,7 +27,7 @@ h2{
 }
 .right1{
    display: flex;
-   align-self:center;
+   justify-content: center;align-self:center;
 }
 .right1 p{
     font-size: 0.9rem;
