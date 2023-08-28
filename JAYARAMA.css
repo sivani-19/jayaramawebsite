@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&family=Ysabeau+SC:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Roboto+Slab:wght@200&display=swap');
 html { 
   height:100%;
   width:100%;
   margin: 0;
-  padding: 0;}
+  padding: 0;
+  
+}
 *{
-  box-sizing: content-box;/* Prevent horizontal overflow */ 
+ /* Prevent horizontal overflow */ 
   margin: 0px;/*it mentions as width*/
   padding:0px;/*acts as a space */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -18,18 +21,7 @@ html {
     margin: 0;
     padding: 0;
 }
-header{
-  overflow: hidden;
-}
-#service{
-  overflow: hidden;
-}
-.view1{
-  overflow: hidden;
-}
-.parallax{
-  overflow: hidden;
-}
+
 header 
   {
     display: flex;
@@ -142,6 +134,7 @@ header
   position: absolute;
   top:7vh;
   right:5vh;
+  overflow-x: hidden;
  }
   /* Rest of your existing CSS */
 
@@ -171,8 +164,9 @@ header
     left:5%;
 }
 .span1{
-  color: rgb(6,143,202);
+  color: rgb(255, 255, 255);
   font-size:5.5vmin ;
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Define initial state */

@@ -1,5 +1,7 @@
+
 AOS.init({
   duration:1000,
+  
 });
 function sendemail() {
   const subject = "Email from Website";
