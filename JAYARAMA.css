@@ -4,23 +4,32 @@ html {
   height:100%;
   width:100%;
   margin: 0;
-  padding: 0;
-  overflow-x: hidden;}
+  padding: 0;}
 *{
   box-sizing: content-box;/* Prevent horizontal overflow */ 
   margin: 0px;/*it mentions as width*/
   padding:0px;/*acts as a space */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
 }
+
 .body{
     height:100%;
     width:100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
-
+header{
+  overflow: hidden;
+}
+#service{
+  overflow: hidden;
+}
+.view1{
+  overflow: hidden;
+}
+.parallax{
+  overflow: hidden;
+}
 header 
   {
     display: flex;
