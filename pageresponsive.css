@@ -1,16 +1,15 @@
 @media (max-width:480px)
 {
-  
- .menu
+.menu
 {
   display: none;
+  overflow-x: hidden;
 }
 .parallax p{
  width: 90%;
  top: 30%;
  text-align: center;
-
-margin: 0px auto;
+ margin: 0px auto;
 }
 .know_more{
   text-align: center;
