@@ -11,7 +11,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
     text-align: center;
-    gap:15px;
+    gap:15px;  
+    position: relative;
+}
+
+.Adressoffics i{
+    position: relative;
+    margin-top: 20px;
 }
 #Getintouch1
 {
@@ -67,7 +73,7 @@
 }
 .Adressoffics i
 {
-    color:rgba(6, 143, 202, 0.603);
+    color:rgb(6, 143, 202);
     background-color: #00000001;
     border: 1px solid rgb(244, 6, 6);
     border-radius:50%;
@@ -76,15 +82,15 @@
 }
 .data input{
     width:330px;
-    height: 30px;
+    height: 40px;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: #7b64641b;
 } 
 .Message textarea{
-    width:330px;
-    height: 100px;
+    width:360px;
+    height: 140px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -107,7 +113,7 @@
 .data i{
     position: relative;
     font-size: 3.6vmin;
-    color: rgba(6, 142, 200, 0.539);
+    color: rgb(6, 142, 200);
     left:4.7vmin;
 }
 .data input{
@@ -115,7 +121,7 @@
 }
 input[type=text],input[type=email],input[type=number],input[type=message]
 {
-    padding-left: 5vmin;
+    padding-left: 6vmin;
 }
 textarea
 {
@@ -150,3 +156,16 @@ textarea
 .data1{
   left:-10px;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+   -webkit-appearance: none; 
+}
+.Adressoffics span{
+  transform: translate(-520%);
+  
+}
+.show-animate .Adressoffics span{
+    transform:translate(0%);
+    transition-delay: calc(.3s * var(--i)); /*makes delay */
+} 

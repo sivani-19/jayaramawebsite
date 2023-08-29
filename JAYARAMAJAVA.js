@@ -1,8 +1,5 @@
 
-AOS.init({
-  duration:1000,
-  
-});
+
 function sendemail() {
   const subject = "Email from Website";
   const body =
@@ -146,3 +143,18 @@ indicators1.forEach((indicator, index) => {
 
 updateSliderPosition1();
 
+let scrollingdown=document.querySelectorAll('section');
+window.onscroll = () => {
+  scrollingdown.forEach(sec =>{
+    let top=window.scrollY+150;
+    let offset=sec.offsetTop-250;
+    let height=sec.offsetWidth;
+    if(top>=offset&&top<offset+height){
+      sec.classList.add('show-animate');
+      
+    }
+    else{
+      sec.classList.remove('show-animate');
+    }
+  })
+}

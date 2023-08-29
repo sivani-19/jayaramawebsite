@@ -7,7 +7,8 @@
     position: relative;
     transition: 0.5s;
     gap: 20px 20px; 
-   margin-top: 5vmin;
+   margin-top: 7vmin;
+   overflow: hidden;
 }
 .left11{
     display: flex;
@@ -33,4 +34,21 @@ h2{
     font-size: 0.9rem;
 font-family: 'Noto Serif', serif;
 width:80%;
+}
+.left11 img{
+    transform:translate(-120%);
+}
+.show-animate .left11 img{
+    transform: translate(20%);
+    transition: transform 1s;
+}
+.right1 {
+    transform:translate(120%);
+}
+.show-animate .right1{
+    transform:translate(0%);
+    transition:transform 1s;
+}
+.show-animate #aboutus1{
+    overflow-x:hidden ;
 }

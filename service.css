@@ -1,66 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-#service{
-display: inline-block;
+#service
+{
     text-align: center;
     padding: 25px;
     position:relative;
     margin-top: 13vmin;
-    width:80%;
+    width:90%;
     left:0%;
-    overflow: hidden;
+    overflow:hidden ;
 }
-#service h2{
+#service h2
+{
     font-family: 'Merriweather', serif;
     font-size:5vmin;
     text-decoration: underline;
     margin-bottom: 4vmin;
 }
-.service p{
+.service p
+{
     font-family: 'Noto Serif', serif;
-    }
-.service  {
+}
+.service  
+{
     border: #000000;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,3fr)); /* Alternating columns of 1fr and fixed width */
-      position: relative;
+    grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
+    position: relative;
     transition: 0.5s;
     gap: 60px 20px; 
-
- }
-.service > div {
+  
+}
+.service > div 
+{
     background:rgba(1, 144, 210, 0.721);
     border-radius:15px;
     height:100%;
-  left: 0%;
+    left: 0%;
     padding:20px;
     margin:0px auto;
-    }
-.service h4{
+}
+.service h4
+{
   font-size: 2.4vmin;
   margin-top:3vmin;
   color:rgb(0, 0, 0);
-  font-family: 'Libre Baskerville', serif;}
+  font-family: 'Libre Baskerville', serif;
+}
 .service img{
  width:25%;
  margin-top: 2vmin;
 }
-.service p{
+.service p
+{
     font-size: 0.9rem;
 }
-.Valutions img{
+.Valutions img
+{
     background-color: rgba(255, 255, 255, 0.084);
     padding: 5px;
     border-radius: 10px;
 }
 
-  .service >div:hover {
+  .service >div:hover 
+  {
     background: rgba(1, 143, 210, 5.114);
     transition:transform 0.5s ease-in-out;
     transform:scale(1.1);
   }
-.buttonleft img,.buttonright img{
+.buttonleft img,.buttonright img
+{
   height: 20px;
 }
 .buttonright,.buttonleft{
@@ -74,3 +84,10 @@ display: inline-block;
   overflow-x: hidden;
 }
 
+.service>div{
+  transform:scale(0.8) ;
+}
+.show-animate .service>div{
+  transform:scale(1);
+  transition:transform 1.5s;
+}
