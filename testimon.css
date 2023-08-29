@@ -94,7 +94,7 @@ margin-top: -5vh;
   margin-top: -5vh;
  
 }
-.left-arrow {
+/*.left-arrow {
 transform: translate(-100%);
 }
 .show-animate .left-arrow{
@@ -112,6 +112,6 @@ transform: translate(-100%);
     transform:scale(0.6) ;
   }
   .show-animate .Testimonials1{
-    transform: scale(1) rotate(360deg);
+    transform: scale(1);
     transition: transform 1s;
-  }
+  }*/

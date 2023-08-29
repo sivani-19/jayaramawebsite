@@ -1,42 +1,4 @@
-
-
-function sendemail() {
-  const subject = "Email from Website";
-  const body =
-    "<table>" +
-    "<thead><tr><th colspan='2'>" + subject + "</th></tr></thead>" +
-    "<tbody>" +
-    "<tr><td>Name:</td><td>" + document.getElementById("Name").value + "</td></tr>" +
-    "<tr><td>Email:</td><td>" + document.getElementById("email").value + "</td></tr>" +
-    "<tr><td>Number:</td><td>" + document.getElementById("number").value + "</td></tr>" +
-    "<tr><td>Message:</td><td>" + document.getElementById("Message").value + "</td></tr>" +
-    "</tbody></table>";
-
-  Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "jayaramaassociates@yahoo.com",
-    Password: "D4A6D9937E621B8A9B194F5FF5B5849BE620",
-    To: 'jayaramaassociates@yahoo.com',
-    From: document.getElementById("email").value,
-    Subject: subject,
-    Body: body,
-  }).then(
-    message => alert("Submitted Successfully")
-  );
-}
-
-
-
-/*  window.addEventListener('scroll', function() {
- let scrolled = window.pageYOffset;
-        let parallaxImage = document.querySelector('.imageview');
-        parallaxImage.style.transform = 'translate3d(0px, ' + (scrolled * 0.5) + 'px, 0px)';
-     ; })*/
- 
-    
      document.addEventListener("DOMContentLoaded", function() {
-      
-     
         const menuBtn = document.getElementById("menu_bar");
         const closeBtn = document.getElementById("closed");
         const menuColumn = document.getElementById("menucolumn");
@@ -119,6 +81,7 @@ let currentIndex1 = 0;
 
 function updateSliderPosition1() {
   Testmonials.style.transform = `translateX(-${currentIndex1 * 100}%)`;
+  Testmonials.style.transition="transform 0.9s ease-in";
   indicators1.forEach((indicators1, index) => {
     indicators1.classList.toggle('active', index === currentIndex1);
   });
@@ -158,3 +121,28 @@ window.onscroll = () => {
     }
   })
 }
+function sendemail() {
+  const subject = "Email from Website";
+  const body =
+    "<table>" +
+    "<thead><tr><th colspan='2'>" + subject + "</th></tr></thead>" +
+    "<tbody>" +
+    "<tr><td>Name:</td><td>" + document.getElementById("Name").value + "</td></tr>" +
+    "<tr><td>Email:</td><td>" + document.getElementById("email").value + "</td></tr>" +
+    "<tr><td>Number:</td><td>" + document.getElementById("number").value + "</td></tr>" +
+    "<tr><td>Message:</td><td>" + document.getElementById("Message").value + "</td></tr>" +
+    "</tbody></table>";
+
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "sivanigulla@gmail.com",
+    Password: "C939C3EDC4F247EF632B93CC195CB6CD74E1",
+    To: "sivanigulla@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: subject,
+    Body: body,
+  }).then(
+    message => alert("Submitted Successfully")
+  );
+}
+

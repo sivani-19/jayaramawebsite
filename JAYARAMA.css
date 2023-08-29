@@ -159,7 +159,8 @@ header
 {
   display:grid;
   grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
-  background: rgb(123, 191, 225);
+  background: rgb(255, 255, 255);
+  overflow: hidden;
 }
 
 .parallax2 img
@@ -177,7 +178,7 @@ header
 .parallax1 p
 {
     position: relative;
-    transform: translateY(50%);
+    transform: translateY(70%);
     margin-left:9vmin;
     z-index: 1;
     width: 80%;
@@ -222,4 +223,32 @@ a
   display: inline-block;
   margin-top: 4vmin;
 }
-
+.parallax1{
+  animation-name: parallaz;
+  animation-duration: 2s;
+}
+@keyframes parallaz {
+  0%{
+    transform: translate(-100%);
+    opacity: 0;
+  }
+  
+  100%{
+    transform:translate(0%);
+    opacity: 1;
+  }
+}
+.parallax2{
+  animation-name: parallaz1;
+  animation-duration: 2s;
+}
+@keyframes parallaz1{
+  0%{
+    transform: translate(100%);
+    opacity: 0%;
+  }
+  100%{
+    transform: translate(0%);
+    opacity: 1;
+  }
+}
