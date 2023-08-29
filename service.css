@@ -25,8 +25,8 @@
 .service  
 {
     border: #000000;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
+   display: flex;
+  
     position: relative;
     transition: 0.5s;
     gap: 60px 20px; 
@@ -34,9 +34,11 @@
 }
 .service > div 
 {
+  flex: 0 0 calc(100% / 3 - 40px);
+  margin: 0px;
+  justify-content: space-between;
     background:rgba(1, 144, 210, 0.721);
     border-radius:15px;
-    height:100%;
     left: 0%;
     padding:20px;
     margin:0px auto;

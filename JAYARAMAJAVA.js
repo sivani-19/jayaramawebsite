@@ -81,7 +81,7 @@ let currentIndex1 = 0;
 
 function updateSliderPosition1() {
   Testmonials.style.transform = `translateX(-${currentIndex1 * 100}%)`;
-  Testmonials.style.transition="transform 0.9s ease-in";
+  Testmonials.style.transition="transform 0.9s ease-in-out";
   indicators1.forEach((indicators1, index) => {
     indicators1.classList.toggle('active', index === currentIndex1);
   });
@@ -111,7 +111,7 @@ window.onscroll = () => {
   scrollingdown.forEach(sec =>{
     let top=window.scrollY+150;
     let offset=sec.offsetTop-250;
-    let height=sec.offsetWidth;
+    let height=sec.offsetWidth+400;
     if(top>=offset&&top<offset+height){
       sec.classList.add('show-animate');
       

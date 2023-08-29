@@ -118,6 +118,7 @@
 }
 .data input{
     display: flex;
+    font-size: 17px;
 }
 input[type=text],input[type=email],input[type=number],input[type=message]
 {
@@ -126,6 +127,7 @@ input[type=text],input[type=email],input[type=number],input[type=message]
 textarea
 {
     padding-left: 1vmin;
+    font-size: 17px;
 }
 
 .Submit button{
@@ -161,11 +163,3 @@ input[type=number]::-webkit-outer-spin-button
 {
    -webkit-appearance: none; 
 }
-.Adressoffics span{
-  transform: translate(-520%);
-  
-}
-.show-animate .Adressoffics span{
-    transform:translate(0%);
-    transition-delay: calc(.3s * var(--i)); /*makes delay */
-} 
