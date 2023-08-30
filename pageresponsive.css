@@ -1,85 +1,21 @@
 @media (max-width:480px)
 {
-.menu
-{
-  display: none;
-  overflow-x: hidden;
-}
-.parallax p{
- width: 90%;
- top: 30%;
- text-align: center;
- margin: 0px auto;
-}
-.know_more{
-  text-align: center;
-  font-size: 1.2rem;
-  position: relative;
-  top: 80vh;
-}
-.span1
-{
-  font-size: 1.2rem;
-}
-.menu-btn i
-{
-  display: block;
-}
-.closed i{
-  display: block;
-}
-
-.menucolumn
-{
-  position: absolute;
-  display: block;
-  width: 100%;
-}
-
- .service > div 
-{
-  flex: 0 0 calc(100%/1);
-  left:0%;
-}
-.service h4{
-  font-size: 1rem;
-}
-#service h2{
-font-size: 1.8rem;
-}
-
-.Testimonials1 p
-{
-  width: 40%;
-  font-size:1.2rem;
-}
-.testimon_parent i
-{
-  position: absolute;
-  padding: 8px;
-  margin-top: -2vh;
-}
-.left-arrow i{
-  position: absolute;
-  left:0%;
-}
-.right-arrow i{
-  position: absolute;
-  right: 0%;
-}
-.testimon{
-  width: 80%
-}
-.left11{
-  margin:0px auto;
-  display: flex;
-  justify-content: center;
-}
-.left11 img{
-  object-fit: cover;
-  width:90%; 
-}
-.right1 p{
-  width: 100%;
-}
+.menu{display: none;overflow-x: hidden;}
+.parallax p{width: 90%;top: 30%;text-align: center;}
+.know_more{text-align: center;font-size: 1.2rem;position: relative;top: 80vh;}
+.span1{font-size: 1.2rem;}
+.menu-btn i{display: block;}
+.closed i{display: block;}
+.menucolumn{position: absolute;display: block;width: 100%;}
+.service>div{flex: 0 0 calc(100% / 1 - 40px);}
+.service h4{font-size: 1rem;}
+#service h2{font-size: 1.8rem;}
+.Testimonials1 p{width: 30%;font-size:1.2rem;}
+.testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;}
+.left-arrow i{position: absolute;left:0%;}
+.right-arrow i{position: absolute;right: 0%;}
+.testimon{width: 80%}
+.left11{margin:0px auto;display: flex;justify-content: center;}
+.left11 img{object-fit: cover;width:90%; }
+.right1 p{width: 100%;}
 }

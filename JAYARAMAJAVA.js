@@ -27,7 +27,7 @@
 
         const slider = document.querySelector('.service');
         let currentPosition = 0;
-        const slideWidth = slider.firstElementChild.offsetWidth // Adjusted for margins
+        const slideWidth = slider.firstElementChild.offsetWidth+10; // Adjusted for margins
         
         function moveSlider(offset) {
           console.log(offset);
@@ -50,7 +50,7 @@
           if (currentPosition < 0) {
             currentPosition = 0;
           } else if (currentPosition > slider.scrollWidth - slider.clientWidth) {
-            currentPosition = slider.scrollWidth - slider.clientWidth;
+            currentPosition = slider.scrollWidth - slider.clientWidth+5;
           }
         
           slider.style.transform = `translateX(-${currentPosition}px)`;
@@ -74,7 +74,7 @@
 const Testmonials = document.querySelector('.Testimonials');
 const leftButton11 = document.querySelector('.left-arrow');
 const rightButton11 = document.querySelector('.right-arrow');
-const indicators1 = document.querySelectorAll('.indicator');
+const indicators1 = document.querySelectorAll('.dot');
 let currentIndex1 = 0;
 
 function updateSliderPosition1() {
@@ -104,21 +104,8 @@ indicators1.forEach((indicator, index) => {
 
 updateSliderPosition1();
 
-let scrollingdown=document.querySelectorAll('section');
-window.onscroll = () => {
-  scrollingdown.forEach(sec =>{
-    let top=window.scrollY+150;
-    let offset=sec.offsetTop-250;
-    let height=sec.offsetWidth+400;
-    if(top>=offset&&top<offset+height){
-      sec.classList.add('show-animate');
-      
-    }
-    else{
-      sec.classList.remove('show-animate');
-    }
-  })
-}
+
+
 function sendemail() {
   const subject = "Email from Website";
   const body =

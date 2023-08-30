@@ -35,20 +35,3 @@ h2{
 font-family: 'Noto Serif', serif;
 width:80%;
 }
-.left11 img{
-    transform:translate(-120%);
-}
-.show-animate .left11 img{
-    transform: translate(20%);
-    transition: transform 1s;
-}
-.right1 {
-    transform:translate(120%);
-}
-.show-animate .right1{
-    transform:translate(0%);
-    transition:transform 1s;
-}
-.show-animate #aboutus1{
-    overflow-x:hidden ;
-}

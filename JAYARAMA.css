@@ -254,11 +254,7 @@ a
     opacity: 1;
   }
 }
-.service11{
-  display: flex;
-  justify-content:center ;
-  align-items: center;
-}
+
 .buttonleft img,.buttonright img{
   position: relative;
   bottom: -50px;

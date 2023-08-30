@@ -24,11 +24,9 @@
 .service  
 {
     border: #000000;
-   display: flex;
-  
+    display: flex;
     position: relative;
     transition: 0.5s;
-  
 }
 .service > div 
 {
@@ -38,8 +36,8 @@
     background:rgba(1, 144, 210, 0.721);
     border-radius:15px;
     left: 0%;
-    padding:20px;
-    margin:0px auto;
+    padding:15px;
+    margin:0px 5px;
 }
 .service h4
 {
@@ -67,7 +65,6 @@
   {
     background: rgba(1, 143, 210, 5.114);
     transition:transform 0.5s ease-in-out;
-    transform:scale(1.1);
   }
 .buttonleft img,.buttonright img
 {
@@ -84,14 +81,7 @@
   overflow-x: hidden;
 }
 
-.service>div{
-  transform:scale(0.8) ;
-}
-.show-animate .service>div{
-  transform:scale(1);
-  transition:transform 1.5s;
-}
 .service{
-  width: 90%;
-  gap:10px;
+  width: 100%;
+
 }
