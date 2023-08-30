@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 
-#Getintouch1 h2{
+#Getintouch1 h2
+{
     font-family: 'Roboto Slab', serif;
     text-align: center;
     color: white;
     color: #000000;
 }
-.Adressoffics{
+.Adressoffics
+{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
     text-align: center;
@@ -15,7 +17,8 @@
     position: relative;
 }
 
-.Adressoffics i{
+.Adressoffics i
+{
     position: relative;
     margin-top: 20px;
 }
@@ -26,7 +29,8 @@
     align-items: center;
     justify-content: center;
 }
-#Getintouch1 p{
+#Getintouch1 p
+{
     font-family: 'Cabin', sans-serif;
 }
 #Getintouch2
@@ -36,16 +40,18 @@
     justify-content: center;
     position: relative;
 }
-#Getintouch2 p{
+#Getintouch2 p
+{
 
     font-size: 7vmin;
-    width:50%;
 }
-.property1{
+.property1
+{
     color: rgba(6, 142, 200, 0.92);
     font-size: 9vmin;
 }
-.Message_Us{
+.Message_Us
+{
     position: relative;
     font-size: 3.5vmin;
     background-color: rgb(6,143,202);
@@ -55,21 +61,24 @@
     cursor:pointer;
 }
 
-.Adressoffics{
+.Adressoffics
+{
     position: relative;
     margin:0px 10vmin;
 }
-#Getintouch span{
+#Getintouch span
+{
     font-family: 'Lato', sans-serif;
     border-radius: 15px;
     position: relative;
 }
-#Getintouch p{
+#Getintouch p
+{
     font-size: 2.5vh;
 }
-.Adressoffics{
+.Adressoffics
+{
     height: 30%;
-   
 }
 .Adressoffics i
 {
@@ -89,7 +98,7 @@
     background-color: #7b64641b;
 } 
 .Message textarea{
-    width:360px;
+    width:350px;
     height: 140px;
     outline: none;
     border: none;
@@ -112,9 +121,9 @@
 }
 .data i{
     position: relative;
-    font-size: 3.6vmin;
+    font-size: 22px;
     color: rgb(6, 142, 200);
-    left:4.7vmin;
+    left:5vmin
 }
 .data input{
     display: flex;
@@ -143,7 +152,7 @@ textarea
 }
 #Getintouch .officeheads_parent{
     background-color:aliceblue;
-    height: 80%;
+    height: 100%;
     margin-bottom: 50px;
     padding: 0px 40px;
 }
@@ -153,7 +162,7 @@ textarea
 }
 .data{
     position: relative;
-    margin: 20px;
+    margin: 20px 0px;
 }
 .data1{
   left:-10px;

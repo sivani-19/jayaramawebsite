@@ -1,9 +1,11 @@
 @media (max-width:480px)
 {
 .menu{display: none;overflow-x: hidden;}
-.parallax p{width: 90%;top: 30%;text-align: center;}
-.know_more{text-align: center;font-size: 1.2rem;position: relative;top: 80vh;}
+.parallax2{margin-top:-50%;position: relative;}
+.parallax p{width: 90%;top: -20%;text-align: center;background-color: rgba(255, 254, 254, 0.4);margin:0 auto;padding: 10px;}
+.parallax2 img{width:100vw; height:100vw;}
 .span1{font-size: 1.2rem;}
+.span2 a{font-size: 1.2rem;}
 .menu-btn i{display: block;}
 .closed i{display: block;}
 .menucolumn{position: absolute;display: block;width: 100%;}
@@ -17,5 +19,17 @@
 .testimon{width: 80%}
 .left11{margin:0px auto;display: flex;justify-content: center;}
 .left11 img{object-fit: cover;width:90%; }
-.right1 p{width: 100%;}
+.right1 p{width: 100%;font-size: 1.1rem; white-space:normal;}
+.right1{margin:0px auto;}
+#aboutus1{padding-top: 100px;}
+.data i{
+  position: relative;
+  font-size: 6vmin;
+  color: rgb(6, 142, 200);
+  left:8vmin
+}
+input[type=text],input[type=email],input[type=number],input[type=message]
+{
+    padding-left: 10vmin;
+}
 }

@@ -90,6 +90,7 @@ leftButton11.addEventListener('click', () => {
   updateSliderPosition1();
 });
 
+
 rightButton11.addEventListener('click', () => {
   currentIndex1 = (currentIndex1 + 1) % Testmonials.children.length;
   updateSliderPosition1();
