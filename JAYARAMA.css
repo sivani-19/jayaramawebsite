@@ -101,15 +101,17 @@ header
     display: flex;
    position: relative;
   }
-  .closed i{
+  .closed i
+  {
     color: #ffffff;
   }
-  .menucolumn ul{
+  .menucolumn ul
+  {
     margin-top:27%;
   }
-.menucolumn li{
-   
-    position: relative;
+.menucolumn li
+{
+   position: relative;
     z-index: 5;
     background-color:rgb(0, 0, 0);
    }

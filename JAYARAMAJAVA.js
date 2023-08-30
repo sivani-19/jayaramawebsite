@@ -22,12 +22,12 @@
       slides.forEach((slide,i) => {
      slide.style.transform = `translateX(-${(index) * 100}%)`;
       });}
-      function prevSlide() {currentSlide = (currentSlide - 1 + slides.length) % slides.length;goToSlide(currentSlide);}
-      function nextSlide() {currentSlide = (currentSlide +1) % slides.length;goToSlide(currentSlide);}
+      function prevSlide() {currentSlide = (currentSlide - 1 + (slides.length));goToSlide(currentSlide);}
+      function nextSlide() {currentSlide = (currentSlide +1) - slides.length;goToSlide(currentSlide);}
 
         const slider = document.querySelector('.service');
         let currentPosition = 0;
-        const slideWidth = slider.firstElementChild.offsetWidth  // Adjusted for margins
+        const slideWidth = slider.firstElementChild.offsetWidth // Adjusted for margins
         
         function moveSlider(offset) {
           console.log(offset);
@@ -35,10 +35,10 @@
             // Mobile screen, move one card at a time
             if(offset<0)
             {
-              currentPosition += offset * slideWidth-20;
+              currentPosition += offset * slideWidth;
             }
             else{
-              currentPosition += offset * slideWidth+20;
+              currentPosition += offset * slideWidth;
             }
             
           } else {
@@ -65,9 +65,7 @@
         // Initial call to moveSlider to set the initial position
         moveSlider(0);
         
-
-
-
+      
 
 // Reset animation properties after adding the duplicate slide
 

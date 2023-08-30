@@ -4,10 +4,9 @@
 #service
 {
     text-align: center;
-    padding: 25px;
     position:relative;
     margin-top: 13vmin;
-    width:90%;
+    width:80%;
     left:0%;
     overflow:hidden ;
 }
@@ -29,14 +28,13 @@
   
     position: relative;
     transition: 0.5s;
-    gap: 60px 20px; 
   
 }
 .service > div 
 {
-  flex: 0 0 calc(100% / 3 - 40px);
-  margin: 0px;
-  justify-content: space-between;
+    flex: 0 0 calc(100% / 3 - 40px);
+    margin: 0px;
+    justify-content: space-between;
     background:rgba(1, 144, 210, 0.721);
     border-radius:15px;
     left: 0%;
@@ -92,4 +90,8 @@
 .show-animate .service>div{
   transform:scale(1);
   transition:transform 1.5s;
+}
+.service{
+  width: 90%;
+  gap:10px;
 }
