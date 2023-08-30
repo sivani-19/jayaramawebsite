@@ -22,14 +22,7 @@
 .right1 p{width: 100%;font-size: 1.1rem; white-space:normal;}
 .right1{margin:0px auto;}
 #aboutus1{padding-top: 100px;}
-.data i{
-  position: relative;
-  font-size: 6vmin;
-  color: rgb(6, 142, 200);
-  left:8vmin
-}
+.data i{position: relative;font-size: 6vmin;color: rgb(6, 142, 200);left:8vmin}
 input[type=text],input[type=email],input[type=number],input[type=message]
-{
-    padding-left: 10vmin;
-}
+{padding-left: 10vmin;}
 }
