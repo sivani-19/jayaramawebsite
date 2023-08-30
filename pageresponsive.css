@@ -13,7 +13,7 @@
 .service h4{font-size: 1rem;}
 #service h2{font-size: 1.8rem;}
 .Testimonials1 p{width: 30%;font-size:1.2rem;}
-.testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;}
+.testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;font-size: 8vmin;}
 .left-arrow i{position: absolute;left:0%;}
 .right-arrow i{position: absolute;right: 0%;}
 .testimon{width: 80%}
