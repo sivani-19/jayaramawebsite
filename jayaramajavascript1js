@@ -1,21 +1,26 @@
+
 function sendemail() {
     const subject = "Email from Website";
-    let name = document.getElementById("Name").value;
-    let email = document.getElementById("email").value;
-    let message = document.getElementById("Message").value;
-    let number=document.getElementById("number").value;
-    let finalmessage = `Name : ${name} <br>  Email : ${email} <br>  Message : ${message} <br> Number:${number}`;
+    const body =
+      "<table>" +
+      "<thead><tr><th colspan='2'>" + subject + "</th></tr></thead>" +
+      "<tbody>" +
+      "<tr><td>Name:</td><td>" + document.getElementById("Name").value + "</td></tr>" +
+      "<tr><td>Email:</td><td>" + document.getElementById("email").value + "</td></tr>" +
+      "<tr><td>Number:</td><td>" + document.getElementById("number").value + "</td></tr>" +
+      "<tr><td>Message:</td><td>" + document.getElementById("Message").value + "</td></tr>" +
+      "</tbody></table>";
   
     Email.send({
       Host: "smtp.elasticemail.com",
-      Username: "gullasivani@gmail.com",
-      Password: "C5F2816E5D31B927822B2D107600D5E30668",
+      Username: "sivanigulla@gmail.com",
+      Password: "672719F6B299174EA51007C63D2BAD4B34C2",
       To: "sivanigulla@gmail.com",
-      From: document.getElementById("email").value,
+      From: "gullasivani@gmail.com",
       Subject: subject,
-      Body: finalmessage,
+      Body: body,
     }).then(
       message => alert("Submitted Successfully")
     );
   }
- 
+  
