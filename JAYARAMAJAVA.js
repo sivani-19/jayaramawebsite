@@ -1,4 +1,29 @@
-     document.addEventListener("DOMContentLoaded", function() {
+  function sendemail() {
+  const subject = "Email from Website";
+  const body =
+    "<table>" +
+    "<thead><tr><th colspan='2'>" + subject + "</th></tr></thead>" +
+    "<tbody>" +
+    "<tr><td>Name:</td><td>" + document.getElementById("Name").value + "</td></tr>" +
+    "<tr><td>Email:</td><td>" + document.getElementById("email").value + "</td></tr>" +
+    "<tr><td>Number:</td><td>" + document.getElementById("number").value + "</td></tr>" +
+    "<tr><td>Message:</td><td>" + document.getElementById("Message").value + "</td></tr>" +
+    "</tbody></table>";
+
+  Email.send({
+    Host: "smtp.elasticemail.com",
+    Username: "jayaramaassociates@yahoo.com",
+    Password: "463EE259839EFB1BE574145391C0436A9385",
+    To: "sivanigulla@gmail.com",
+    From: "jayaramaassociates@yahoo.com",
+    Subject: subject,
+    Body: body,
+  }).then(
+    message => alert("Submitted Successfully")
+  );
+}
+
+    document.addEventListener("DOMContentLoaded", function() {
         const menuBtn = document.getElementById("menu_bar");
         const closeBtn = document.getElementById("closed");
         const menuColumn = document.getElementById("menucolumn");

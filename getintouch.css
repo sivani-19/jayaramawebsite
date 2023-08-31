@@ -127,7 +127,7 @@ input[type=number]::-webkit-outer-spin-button
     display: flex;
     font-size: 17px;
 }
-input[type=text],input[type=email],input[type=number],input[type=message]
+input[type=text],input[type=email],input[type=tel],input[type=message]
 {
     padding-left: 6vmin;
 }
