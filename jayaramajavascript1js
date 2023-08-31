@@ -1,11 +1,10 @@
-
 function sendemail() {
     const subject = "Email from Website";
     let name = document.getElementById("Name").value;
     let email = document.getElementById("email").value;
     let message = document.getElementById("Message").value;
     let number=document.getElementById("number").value;
-    let finalmessage = `Name : ${name} <br>  Email : ${email} <br>  Message : ${message} <br>`;
+    let finalmessage = `Name : ${name} <br>  Email : ${email} <br>  Message : ${message} <br> Number:${number}`;
   
     Email.send({
       Host: "smtp.elasticemail.com",
