@@ -1,0 +1,26 @@
+
+function sendemail() {
+    const subject = "Email from Website";
+    const body =
+      "<table>" +
+      "<thead><tr><th colspan='2'>" + subject + "</th></tr></thead>" +
+      "<tbody>" +
+      "<tr><td>Name:</td><td>" + document.getElementById("Name").value + "</td></tr>" +
+      "<tr><td>Email:</td><td>" + document.getElementById("email").value + "</td></tr>" +
+      "<tr><td>Number:</td><td>" + document.getElementById("number").value + "</td></tr>" +
+      "<tr><td>Message:</td><td>" + document.getElementById("Message").value + "</td></tr>" +
+      "</tbody></table>";
+  
+    Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: "sivanigulla@gmail.com",
+      Password: "672719F6B299174EA51007C63D2BAD4B34C2",
+      To: "sivanigulla@gmail.com",
+      From: "gullasivani@gmail.com",
+      Subject: subject,
+      Body: body,
+    }).then(
+      message => alert("Submitted Successfully")
+    );
+  }
+  

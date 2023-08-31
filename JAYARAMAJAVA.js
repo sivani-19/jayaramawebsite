@@ -1,29 +1,4 @@
-  function sendemail() {
-  const subject = "Email from Website";
-  const body =
-    "<table>" +
-    "<thead><tr><th colspan='2'>" + subject + "</th></tr></thead>" +
-    "<tbody>" +
-    "<tr><td>Name:</td><td>" + document.getElementById("Name").value + "</td></tr>" +
-    "<tr><td>Email:</td><td>" + document.getElementById("email").value + "</td></tr>" +
-    "<tr><td>Number:</td><td>" + document.getElementById("number").value + "</td></tr>" +
-    "<tr><td>Message:</td><td>" + document.getElementById("Message").value + "</td></tr>" +
-    "</tbody></table>";
-
-  Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "jayaramaassociates@yahoo.com",
-    Password: "463EE259839EFB1BE574145391C0436A9385",
-    To: "sivanigulla@gmail.com",
-    From: "jayaramaassociates@yahoo.com",
-    Subject: subject,
-    Body: body,
-  }).then(
-    message => alert("Submitted Successfully")
-  );
-}
-
-    document.addEventListener("DOMContentLoaded", function() {
+     document.addEventListener("DOMContentLoaded", function() {
         const menuBtn = document.getElementById("menu_bar");
         const closeBtn = document.getElementById("closed");
         const menuColumn = document.getElementById("menucolumn");
@@ -40,6 +15,44 @@
             menuColumn.style.display = "none"; // Hide the menu items
         });
     });
+    // Add smooth scrolling to all links
+const Testmonials = document.querySelector('.Testimonials');
+const leftButton11 = document.querySelector('.left-arrow');
+const rightButton11 = document.querySelector('.right-arrow');
+const indicators1 = document.querySelectorAll('.dot');
+let currentIndex1 = 0;
+
+function updateSliderPosition1() {
+  Testmonials.style.transform = `translateX(-${currentIndex1 * 100}%)`;
+  Testmonials.style.transition="transform 0.9s ease-in-out";
+  indicators1.forEach((indicators1, index) => {
+    indicators1.classList.toggle('active', index === currentIndex1);
+  });
+}
+
+leftButton11.addEventListener('click', () => {
+  currentIndex1 = (currentIndex1 - 1 + Testmonials.children.length) % Testmonials.children.length;
+  updateSliderPosition1();
+});
+
+
+rightButton11.addEventListener('click', () => {
+  currentIndex1 = (currentIndex1 + 1) % Testmonials.children.length;
+  updateSliderPosition1();
+});
+
+indicators1.forEach((indicator, index) => {
+  indicator1.addEventListener('click', () => {
+    currentIndex1 = index;
+    updateSliderPosition1();
+  });
+});
+
+updateSliderPosition1();
+
+
+
+
     
       let currentSlide = 0;
       const slides = document.querySelectorAll('.DESIGN');
@@ -50,7 +63,8 @@
       function prevSlide() {currentSlide = (currentSlide - 1 + (slides.length));goToSlide(currentSlide);}
       function nextSlide() {currentSlide = (currentSlide +1) - slides.length;goToSlide(currentSlide);}
 
-        const slider = document.querySelector('.service');
+        const slider = document.getElementById('services');
+        console.log(slider);
         let currentPosition = 0;
         const slideWidth = slider.firstElementChild.offsetWidth+10; // Adjusted for margins
         
@@ -94,42 +108,5 @@
       
 
 // Reset animation properties after adding the duplicate slide
-
-
-// Add smooth scrolling to all links
-const Testmonials = document.querySelector('.Testimonials');
-const leftButton11 = document.querySelector('.left-arrow');
-const rightButton11 = document.querySelector('.right-arrow');
-const indicators1 = document.querySelectorAll('.dot');
-let currentIndex1 = 0;
-
-function updateSliderPosition1() {
-  Testmonials.style.transform = `translateX(-${currentIndex1 * 100}%)`;
-  Testmonials.style.transition="transform 0.9s ease-in-out";
-  indicators1.forEach((indicators1, index) => {
-    indicators1.classList.toggle('active', index === currentIndex1);
-  });
-}
-
-leftButton11.addEventListener('click', () => {
-  currentIndex1 = (currentIndex1 - 1 + Testmonials.children.length) % Testmonials.children.length;
-  updateSliderPosition1();
-});
-
-
-rightButton11.addEventListener('click', () => {
-  currentIndex1 = (currentIndex1 + 1) % Testmonials.children.length;
-  updateSliderPosition1();
-});
-
-indicators1.forEach((indicator, index) => {
-  indicator1.addEventListener('click', () => {
-    currentIndex1 = index;
-    updateSliderPosition1();
-  });
-});
-
-updateSliderPosition1();
-
 
 
