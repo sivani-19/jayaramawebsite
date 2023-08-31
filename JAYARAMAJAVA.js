@@ -54,6 +54,7 @@
           }
         
           slider.style.transform = `translateX(-${currentPosition}px)`;
+          slider.style.transition="transform 0.9s ease-in-out";
         }
         
         // Add event listener for window resize to handle responsive behavior
@@ -106,29 +107,4 @@ indicators1.forEach((indicator, index) => {
 updateSliderPosition1();
 
 
-
-function sendemail() {
-  const subject = "Email from Website";
-  const body =
-    "<table>" +
-    "<thead><tr><th colspan='2'>" + subject + "</th></tr></thead>" +
-    "<tbody>" +
-    "<tr><td>Name:</td><td>" + document.getElementById("Name").value + "</td></tr>" +
-    "<tr><td>Email:</td><td>" + document.getElementById("email").value + "</td></tr>" +
-    "<tr><td>Number:</td><td>" + document.getElementById("number").value + "</td></tr>" +
-    "<tr><td>Message:</td><td>" + document.getElementById("Message").value + "</td></tr>" +
-    "</tbody></table>";
-
-  Email.send({
-    Host: "smtp.elasticemail.com",
-    Username: "sivanigulla@gmail.com",
-    Password: "C939C3EDC4F247EF632B93CC195CB6CD74E1",
-    To: "sivanigulla@gmail.com",
-    From: document.getElementById("email").value,
-    Subject: subject,
-    Body: body,
-  }).then(
-    message => alert("Submitted Successfully")
-  );
-}
 

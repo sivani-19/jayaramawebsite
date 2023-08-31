@@ -1,0 +1,22 @@
+
+function sendemail() {
+    const subject = "Email from Website";
+    let name = document.getElementById("Name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("Message").value;
+    let number=document.getElementById("number").value;
+    let finalmessage = `Name : ${name} <br>  Email : ${email} <br>  Message : ${message} <br>`;
+  
+    Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: "gullasivani@gmail.com",
+      Password: "C5F2816E5D31B927822B2D107600D5E30668",
+      To: "sivanigulla@gmail.com",
+      From: document.getElementById("email").value,
+      Subject: subject,
+      Body: finalmessage,
+    }).then(
+      message => alert("Submitted Successfully")
+    );
+  }
+ 

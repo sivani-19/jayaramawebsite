@@ -7,6 +7,7 @@
     text-align: center;
     color: white;
     color: #000000;
+    margin-top: 7vmin;
 }
 .Adressoffics
 {
@@ -60,7 +61,11 @@
     top: 3vmin;
     cursor:pointer;
 }
-
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+   -webkit-appearance: none; 
+}
 .Adressoffics
 {
     position: relative;
@@ -90,7 +95,7 @@
     font-size: 5vh;
 }
 .data input{
-    width:330px;
+    width:55vmin;
     height: 40px;
     outline: none;
     border: none;
@@ -114,18 +119,11 @@
     text-align: center;
     padding-bottom: 50px;
 }
-.data {
-    display: flex;/*keeps the icons at the middle of the input*/
-    align-items: center;
-    justify-content: center;/*keeps inputs at the middle of the page*/
-}
-.data i{
-    position: relative;
-    font-size: 22px;
-    color: rgb(6, 142, 200);
-    left:5vmin
-}
 .data input{
+    position: relative;
+}
+
+.data input,textarea{
     display: flex;
     font-size: 17px;
 }
@@ -164,11 +162,21 @@ textarea
     position: relative;
     margin: 20px 0px;
 }
-.data1{
-  left:-10px;
+
+.data{
+    display: flex;/*keeps the icons at the middle of the input*/
+    position: relative;
+    align-items: center;
+    justify-content: center;/*keeps inputs at the middle of the page*/
 }
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button
-{
-   -webkit-appearance: none; 
+.data1{
+    position: relative;
+}
+
+.data1 i{
+    position: absolute;
+    margin-left:-55vmin;
+    font-size: 3.3vmin;
+    color: rgb(6, 143, 202);
+    z-index: 10;
 }

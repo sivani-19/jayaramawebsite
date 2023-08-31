@@ -1,9 +1,15 @@
-@media (max-width:480px)
+@media (max-width:489px)
 {
 .menu{display: none;overflow-x: hidden;}
-.parallax2{margin-top:-50%;position: relative;}
+.parallax2{top:-50%;position: relative;}
+.parallax{margin-bottom: -50%;}
 .parallax p{width: 90%;top: -20%;text-align: center;background-color: rgba(255, 254, 254, 0.4);margin:0 auto;padding: 10px;}
-.parallax2 img{width:100vw; height:100vw;}
+.parallax2 img{width:100vw; height:120vw;}
+.parallax1 p{
+  left:-50%;
+  top:-50%;
+  transform: translate(52%,100%);
+}
 .span1{font-size: 1.2rem;}
 .span2 a{font-size: 1.2rem;}
 .menu-btn i{display: block;}
@@ -11,18 +17,25 @@
 .menucolumn{position: absolute;display: block;width: 100%;}
 .service>div{flex: 0 0 calc(100% / 1 - 40px);}
 .service h4{font-size: 1rem;}
-#service h2{font-size: 1.8rem;}
+#service h2{font-size: 1.5rem;}
+.buttonright,.buttonleft{cursor: pointer;margin-bottom: 0px;}
+#aboutus1 h2{font-size: 1.5rem;}
 .Testimonials1 p{width: 30%;font-size:1.2rem;}
 .testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;font-size: 8vmin;}
+.Testimonials-list h4{font-size: 1.5rem;}
 .left-arrow i{position: absolute;left:0%;}
 .right-arrow i{position: absolute;right: 0%;}
-.testimon{width: 80%}
+.testimon{width: 100vmin;}
 .left11{margin:0px auto;display: flex;justify-content: center;}
 .left11 img{object-fit: cover;width:90%; }
 .right1 p{width: 100%;font-size: 1.1rem; white-space:normal;}
 .right1{margin:0px auto;}
-#aboutus1{padding-top: 100px;}
-.data i{position: relative;font-size: 6vmin;color: rgb(6, 142, 200);left:8vmin}
-input[type=text],input[type=email],input[type=number],input[type=message]
-{padding-left: 10vmin;}
+.data i{font-size: 6.5vmin;color: rgb(6, 142, 200);margin-left: -78vmin;}
+input[type=text],input[type=email],input[type=number]{padding-left: 10vmin;}
+.data input{width:80vmin;} 
+.Message textarea{width:85vmin;}
+}
+@media(min-width:489px) and (max-width: 768px)
+{
+
 }

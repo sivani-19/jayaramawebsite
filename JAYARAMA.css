@@ -107,7 +107,7 @@ header
   }
   .menucolumn ul
   {
-    margin-top:27%;
+margin-top: 100px;
   }
 .menucolumn li
 {
@@ -142,7 +142,7 @@ header
  }
  .menucolumn li
  {
-  padding: 10px;
+  padding: 20px;
   text-align: center;
  }
  .mobile_menu i{
@@ -185,7 +185,7 @@ header
 .parallax1 p
 {
     position: relative;
-    transform: translateY(70%);
+    transform: translateY(30vmin);
     margin-left:9vmin;
     z-index: 1;
     width: 80%;
@@ -259,8 +259,7 @@ a
     opacity: 1;
   }
 }
-
-.buttonleft img,.buttonright img{
-  position: relative;
-  bottom: -50px;
+footer{
+  text-align: center;
 }
+
