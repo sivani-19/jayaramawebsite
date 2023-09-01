@@ -78,4 +78,3 @@ updateSliderPosition1();
 
 updateSliderPosition1();
 
-

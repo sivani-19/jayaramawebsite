@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="aboutus.css"/>
     <link rel="stylesheet" href="getintouch.css"/>
     <link rel="stylesheet" href="pageresponsive.css"/>
+    <link rel="stylesheet" href="visitus.css"/>
     <script src="jayaramajavascript1js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -303,11 +304,22 @@
             <span class="dot" onclick="currentSlide(4)"></span> 
           </div>          
 </div>
-      <section class="Get In Touch" id="Getintouch">
+<div class="visitus">
+<p class="visituspara">
+    Visit us today to discover the future of property valuation. 
+    Our doors are open, and we're ready to show you how our expertise and dedication can make a difference in your property decisions. 
+    Come see us in person and explore the world of accurate and reliable valuations.
+    Your property's potential is just a visit away!
+</p>
+<span class="visit_button" onclick="myFunction1()"><p >visit us</p> </span>
+
+</div>
+<div class="mapouter" id="mapouter" style="display: none;">
+    <div class="gmap_canvas">
+        <iframe src="https://maps.google.com/maps?q=jayaramaassociate&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="gmap_canvas" frameborder="0" scrolling="no" style="width:80%; height:80vmin;position:relative;display:flex;margin: 5vmin auto;"></iframe>
+       </div></div>  
+       <section class="Get In Touch" id="Getintouch">
         <div class="Adressoffics">
-         <span class="officeheads_parent" ><p><i class="fa-solid fa-phone"></i></p><p> <span class="officeheads">phone:</span><br>098666 69777</p></span>
-         <span class="officeheads_parent"><p><i class="fa-regular fa-envelope"></i></p><p><span class="officeheads">Mail:</span><br>sivanigulla@gmail.com</p></span>
-         <span class="officeheads_parent"><p><i class="fa-solid fa-location-dot"></i></p><p><span class="officeheads">Adress:</span><br>Plot No. 12,Road,Street Number 1A,Czech Colony,  Sanath Nagar, Hyderabad, Telangana 500018</p></span>
          <span class="officeheads_parent"><p><i class="fa-solid fa-clock"></i></p><p><span class="officeheads">business hours:</span><br>Monday-Saturday<br>(10am-7pm)</p></span>
      </div>
      <div class="Get in TOUCH11 " id="Getintouch1">
@@ -315,14 +327,24 @@
     </div>
       <div class="Get in touch parent" id="Getintouchparent">
     <div class="details">
-        <div class="details1">
+        <div class="details12">
         <p>
             Ready to get accurate insights for your property's worth? Don't 
             hesitate – get in touch with us today. Our experienced team is 
             here to provide you with expert valuation services that empower 
             your decisions. Reach out now and unlock the potential of your
-            property's value. Your trusted valuation partner awaits your call or email.
+            property's value. Your trusted valuation partner awaits your call or email.<br>
         </p>
+        <span class="details_child">
+        <span class="officeheads_parent">
+        <p><i class="fa-solid fa-phone"></i></p>
+        <p> <span class="officeheads">phone:</span>098666 69777</p>
+        </span>
+        <span class="officeheads_parent">
+        <p><i class="fa-regular fa-envelope"></i></p>
+        <p><span class="officeheads">Mail:</span>sivanigulla@gmail.com</p></span>
+     </span>   
+        
     </div>
     <div class="details2">
       <form onsubmit="sendemail(); reset(); return false";>

@@ -40,3 +40,13 @@ function sendemail() {
         menuColumn.style.display = "none"; // Hide the menu items
     });
 });
+function myFunction1() {
+  var x = document.getElementById("mapouter");
+  if (x.style.display == "none") {
+    x.style.transition="block 3s ease-in-out";
+    x.style.display = "block";
+   
+  } else {
+    x.style.display = "none";
+  }
+}

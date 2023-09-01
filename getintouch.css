@@ -1,114 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
-#Getintouch1 h2
-{
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    color: white;
-    color: #000000;
-    margin-top: 7vmin;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+.officeheads_parent i{
+    border-radius: 12px;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(6, 143, 202);
+    padding: 5px;
+    border-color: black;
+    border: 2px;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
 }
-.Adressoffics
+.details
 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,4fr));
-    text-align: center;
-    gap:15px;  
-    position: relative;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
 }
-
-.Adressoffics i
-{
-    position: relative;
-    margin-top: 20px;
+.details12 p{
+    font-family: 'Noto Serif', serif;  
 }
-#Getintouch1
-{
-    position: relative;
+.details12{
+margin: 20px;
+text-align: left;
+}
+.officeheads_parent{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#Getintouch1 p
-{
-    font-family: 'Cabin', sans-serif;
-}
-#Getintouch2
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-#Getintouch2 p
-{
-font-size: 7vmin;
-}
-.property1
-{
-    color: rgba(6, 142, 200, 0.92);
-    font-size: 9vmin;
-}
-.Message_Us
-{
-    position: relative;
-    font-size: 3.5vmin;
-    background-color: rgb(6,143,202);
     padding: 10px;
-    border-radius: 10px;
-    top: 3vmin;
-    cursor:pointer;
 }
-.Adressoffics
-{
+.details_child{
     position: relative;
-    margin:0px 10vmin;
+    display: block;
+    transform: translateX(10vmin);
+    padding: 30px;
 }
-#Getintouch span
-{
-    font-family: 'Lato', sans-serif;
-    border-radius: 15px;
-    position: relative;
-}
-#Getintouch p
-{
-    font-size: 2.5vh;
-}
-.Adressoffics
-{
-    height: 30%;
-}
-.Adressoffics i
-{
-    color:rgb(6, 143, 202);
-    background-color: #00000001;
-    border: 1px solid rgb(244, 6, 6);
-    border-radius:50%;
-    padding:20px;
-    font-size: 5vh;
+.officeheads_parent i{
+    margin-left: -6vmin;
+    font-size: 3vmin;
 }
 .data input{
     width:55vmin;
-    height: 7vmin;
+    height: 6vmin;
     outline: none;
     border: none;
-    border-radius: 50px;
-    background-color: #7b64641b;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px rgb(6, 143, 202);
 } 
 .Message textarea{
-    width:60vmin;
-    height: 25vmin;
+    width:60.5vmin;
+    height: 22vmin;
     outline: none;
     border: none;
     border-radius: 5px;
-    background-color: #7b64641b;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px rgb(6, 143, 202);
+}
+.data input:focus,.Message textarea:focus{
+    box-shadow: 0 0 5px black;
 }
 .details button{
     color: rgb(0, 0, 0);
     padding: 1% 20px;
     margin-top: 1%;
-    font-size: 18px;}
+    font-size: 18px;
+}
 .details{
     text-align: center;
     padding-bottom: 50px;
@@ -119,16 +73,15 @@ font-size: 7vmin;
 
 .data input,textarea{
     display: flex;
-    font-size: 3vmin;
+    font-size: 2.7vmin;
 }
 input[type=text],input[type=email],input[type=tel],input[type=message]
 {
-    padding-left: 10vmin;
+    padding-left: 6vmin;
 }
 textarea
 {
     padding-left: 1vmin;
-    
 }
 
 .Submit button{
@@ -142,16 +95,7 @@ textarea
     font-size:large;
     color:rgba(6, 142, 200, 0.92)
 }
-#Getintouch .officeheads_parent{
-    background-color:aliceblue;
-    height: 100%;
-    margin-bottom: 50px;
-    padding: 0px 40px;
-}
-#Getintouch .officeheads{
-    color:rgb(6,143,202);
-    font-size: 3.8vmin;
-}
+
 .data{
     position: relative;
     margin: 20px 0px;
@@ -170,21 +114,7 @@ textarea
 .data1 i{
     position: absolute;
     margin-left:-55vmin;
-    font-size: 4.3vmin;
+    font-size: 3vmin;
     color: rgb(6, 143, 202);
     z-index: 10;
-}
-.details{
-    display: flex;
-}
-.details1{
-    width: 50%;
-}
-.details1 p{
-    font-family: 'Zilla Slab', serif;
-}
-.details2{
-    left:50%;
-    top:-50%;
-    transform: translate(50%,0%);
 }
