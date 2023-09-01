@@ -29,7 +29,7 @@ text-align: left;
 .details_child{
     position: relative;
     display: block;
-    transform: translateX(10vmin);
+    
     padding: 30px;
 }
 .officeheads_parent i{

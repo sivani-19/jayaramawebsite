@@ -30,7 +30,7 @@
 .left11 img{object-fit: cover;width:90%; }
 .right1 p{width: 100%;font-size: 1.1rem; white-space:normal;}
 .right1{margin:0px auto;}
-.data i{font-size: 6.5vmin;color: rgb(6, 142, 200);margin-left: -78vmin;}
+.data i{font-size: 5.5vmin;color: rgb(6, 142, 200);margin-left: -78vmin;}
 input[type=text],input[type=email],input[type=number]{padding-left: 10vmin;}
 .data input{width:80vmin;} 
 .Message textarea{width:85vmin;}
