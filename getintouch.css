@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
 #Getintouch1 h2
 {
     font-family: 'Roboto Slab', serif;
@@ -43,8 +43,7 @@
 }
 #Getintouch2 p
 {
-
-    font-size: 7vmin;
+font-size: 7vmin;
 }
 .property1
 {
@@ -60,11 +59,6 @@
     border-radius: 10px;
     top: 3vmin;
     cursor:pointer;
-}
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button
-{
-   -webkit-appearance: none; 
 }
 .Adressoffics
 {
@@ -96,15 +90,15 @@ input[type=number]::-webkit-outer-spin-button
 }
 .data input{
     width:55vmin;
-    height: 40px;
+    height: 7vmin;
     outline: none;
     border: none;
     border-radius: 50px;
     background-color: #7b64641b;
 } 
 .Message textarea{
-    width:350px;
-    height: 140px;
+    width:60vmin;
+    height: 25vmin;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -125,16 +119,16 @@ input[type=number]::-webkit-outer-spin-button
 
 .data input,textarea{
     display: flex;
-    font-size: 17px;
+    font-size: 3vmin;
 }
 input[type=text],input[type=email],input[type=tel],input[type=message]
 {
-    padding-left: 6vmin;
+    padding-left: 10vmin;
 }
 textarea
 {
     padding-left: 1vmin;
-    font-size: 17px;
+    
 }
 
 .Submit button{
@@ -176,7 +170,21 @@ textarea
 .data1 i{
     position: absolute;
     margin-left:-55vmin;
-    font-size: 3.3vmin;
+    font-size: 4.3vmin;
     color: rgb(6, 143, 202);
     z-index: 10;
+}
+.details{
+    display: flex;
+}
+.details1{
+    width: 50%;
+}
+.details1 p{
+    font-family: 'Zilla Slab', serif;
+}
+.details2{
+    left:50%;
+    top:-50%;
+    transform: translate(50%,0%);
 }

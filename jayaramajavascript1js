@@ -23,4 +23,20 @@ function sendemail() {
       message => alert("Submitted Successfully")
     );
   }
-  
+  document.addEventListener("DOMContentLoaded", function() {
+    const menuBtn = document.getElementById("menu_bar");
+    const closeBtn = document.getElementById("closed");
+    const menuColumn = document.getElementById("menucolumn");
+
+    menuBtn.addEventListener("click", function() {
+        menuBtn.style.display = "none";
+        closeBtn.style.display = "block";
+        menuColumn.style.display = "block"; // Show the menu items
+    });
+
+    closeBtn.addEventListener("click", function() {
+        closeBtn.style.display = "none";
+        menuBtn.style.display = "block";
+        menuColumn.style.display = "none"; // Hide the menu items
+    });
+});
