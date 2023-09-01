@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 .officeheads_parent i{
-    border-radius: 12px;
+    border-radius: 50px;
     background-color: rgba(255, 0, 0, 0);
-    color: rgb(6, 143, 202);
-    padding: 5px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
     border-color: black;
-    border: 2px;
+    border: 50px;
     box-shadow: 0 0 2px rgb(0, 0, 0);
 }
 .details
@@ -43,7 +43,7 @@ text-align: left;
     border: none;
     border-radius: 10px;
     background-color: #ffffff;
-    box-shadow: 0 0 1px rgb(6, 143, 202);
+    box-shadow: 0 0 1px rgb(0, 0, 0);
 } 
 .Message textarea{
     width:60.5vmin;
@@ -52,7 +52,7 @@ text-align: left;
     border: none;
     border-radius: 5px;
     background-color: #ffffff;
-    box-shadow: 0 0 1px rgb(6, 143, 202);
+    box-shadow: 0 0 1px rgb(0, 0, 0);
 }
 .data input:focus,.Message textarea:focus{
     box-shadow: 0 0 5px black;
@@ -87,8 +87,9 @@ textarea
 .Submit button{
     border:none;
     border-radius: 12px;
-    background:rgb(6,143,202);
+    background:rgb(0, 0, 0);
     cursor: pointer;
+    color: #ffffff;
 }
 .officeheads{
     position: relative;
@@ -115,6 +116,9 @@ textarea
     position: absolute;
     margin-left:-55vmin;
     font-size: 3vmin;
-    color: rgb(6, 143, 202);
+    color: rgb(0, 0, 0);
     z-index: 10;
+}
+#Getintouch{
+    background-color: rgb(135, 181, 222);
 }
