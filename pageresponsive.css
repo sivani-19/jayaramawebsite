@@ -16,22 +16,36 @@
 #service h2{font-size: 1.5rem;}
 .buttonright,.buttonleft{cursor: pointer;margin-bottom: 0px;}
 #aboutus1 h2{font-size: 1.5rem;}
-.Testimonials1 p{width: 30%;font-size:1.2rem;}
+.Testimonials1 p{width:70vmin;font-size:1.1rem;}
 .testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;font-size: 8vmin;}
 .Testimonials-list h4{font-size: 1.5rem;}
-.left-arrow i{position: absolute;left:0%;}
-.right-arrow i{position: absolute;right: 0%;}
+.left-arrow i{display: none;}
+.right-arrow i{display: none;}
 .testimon{width: 100vmin;}
 .left11{margin:0px auto;display: flex;justify-content: center;}
 .left11 img{object-fit: cover;width:90%; }
 .right1 p{width: 100%;font-size: 1.1rem; white-space:normal;}
 .right1{margin:0px auto;}
-.data i{font-size: 5.5vmin;color: rgb(6, 142, 200);margin-left: -78vmin;}
-input[type=text],input[type=email],input[type=number]{padding-left: 10vmin;}
-.data input{width:80vmin;} 
-.Message textarea{width:85vmin;}
+.data i{font-size: 5.5vmin;color: rgb(6, 142, 200);margin-left: -68vmin;}
+input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;}
+.data input{width:70vmin;height: 9vmin;} 
+.Message textarea{width:78vmin;}
 }
 @media(min-width:489px) and (max-width: 768px)
 {
-
+    .menu{display: none;overflow-x: hidden;}
+    .parallax p{width: 90%;top: -20%;text-align: center;background-color: rgba(255, 254, 254, 0.4);margin:0 auto;padding: 10px;}
+    .parallax1 p{margin: 30vmin auto;position: relative;justify-content: center;align-items: center;}
+    .menu-btn i{display: block;}
+    .closed i{display: block;}
+    .menucolumn{position: absolute;display: block;width: 100%;}
+    .span11{font-size:8.5vmin ;}
+    .span12{font-size: 5.5vmin;}
+    .service>div{flex: 0 0 calc(100% / 2 - 40px);}
+    #service h4{font-size: 0.8rem;}
+    #service p{font-size: 0.75rem;}
+    .testimon{width: 100%;}
+    .Testimonials1 p{width: 75%;font-size:3.5vmin;padding: 5vmin;border-radius: 5px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);}
+    .left-arrow i{display: none;}
+    .right-arrow i{display: none;}
 }

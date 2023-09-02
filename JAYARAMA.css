@@ -25,6 +25,7 @@ html {
     width:100%;
     margin: 0;
     padding: 0;
+   
 }
 
 header 
@@ -153,8 +154,8 @@ margin-top: 100px;
   display: flex;
   justify-content: end;
   position: absolute;
-  top:7vh;
-  right:5vh;
+  top:17vh;
+  right:15vh;
   overflow-x: hidden;
  }
   /* Rest of your existing CSS */

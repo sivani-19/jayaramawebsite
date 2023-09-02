@@ -7,7 +7,7 @@
     position:relative;
     width:70%;
     left:0%;
-    overflow:hidden ;
+    overflow:hidden;
     margin-top: 10vmin;
 }
 #service h2
@@ -15,8 +15,7 @@
     font-family: 'Merriweather', serif;
     font-size:5vmin;
     text-decoration: underline;
-    margin-bottom: 4vmin;
-  
+    margin-bottom:4vmin;
 }
 .service p
 {
@@ -89,5 +88,5 @@
 }
 .buttonleft img,.buttonright img{
   position: relative;
-  bottom: -50px;
+  
 }
