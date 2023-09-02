@@ -94,7 +94,7 @@ textarea
 .officeheads{
     position: relative;
     font-size:large;
-    color:rgba(6, 142, 200, 0.92)
+    color:rgba(0, 0, 0, 0.92)
 }
 
 .data{
@@ -120,5 +120,9 @@ textarea
     z-index: 10;
 }
 #Getintouch{
-    background-color: rgb(135, 181, 222);
+    background-color: #0094cc;
+}
+.details_child>span{
+    display: flex;
+    align-items: center;
 }

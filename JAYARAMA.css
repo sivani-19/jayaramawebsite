@@ -88,7 +88,7 @@ header
   }
   .menu li a:hover{
     transform: scale(1.2);
-    color: rgb(6,143,210);
+    color:#0094cc;
   }
   .menu-btn,.closed{
     position: relative;
@@ -195,7 +195,7 @@ margin-top: 100px;
 }
 .span11{
   font-family: 'Signika Negative', sans-serif;
-  color: rgb(6,143,210);
+  color: #0094cc;
   font-size:12.5vmin ;
   font-weight: bold;
   text-transform: uppercase;
@@ -207,7 +207,7 @@ margin-top: 100px;
 .span2 a
 {
   font-size: 3.5vmin;
-  background-color: rgb(6,143,210);
+  background-color:  #0094cc;
   color: rgb(0, 0, 0);
   text-decoration: none;
   border-radius: 50px;
@@ -261,5 +261,6 @@ a
 }
 footer{
   text-align: center;
+  background-color:  #0094cc;
 }
 
