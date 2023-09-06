@@ -3,18 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 .Testimonials-list
   {
-      text-align: center;  
       position: relative;
       margin-bottom: 40px;
   }
-  .testimon_parent{
+  .testimon_parent
+  {
     width:100%;
     padding-bottom: 15px;
   }
-  .Testimonials-list h4{
-    font-family: 'Merriweather', serif;
-    text-decoration: underline;
-   
+  .Testimonials-list h4
+{
+  color:#e11546;
+    font-family: 'Merriweather', serif;   
 }
 .Testimonials-list p{
   font-family: 'Merriweather', serif;
@@ -25,24 +25,23 @@
 }
 .Testimonials p 
   { 
-    background:whitesmoke;
     font-family: 'Nunito', sans-serif;
   }
 .Testimonials1 { 
   display: flex;
-  flex:0 0 calc(100%/1);
-  text-align: center;
+  flex:0 0 calc(100% / 1 );
   position: relative;
-  justify-content: center;}
+  justify-content: center;
+ 
+}
 .Testimonials1 p
 {
-  background-color:rgb(255, 255, 255);
-  width: 80%;
+  background-color:rgb(0, 0, 0);
+   width: 75%;
   padding: 30px;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.521);
 }
-
 .checked 
 {
   color: orange;
@@ -62,13 +61,14 @@
 .customer_name
 {
   display: block;
-  text-align: center;
+  text-align: end;
 }
 .testimon
   {
    margin: 0px auto;
     width: 80%;
     overflow: hidden;
+    color: #fefafb;
   }
   
   .testimon_parent  
@@ -83,19 +83,28 @@ cursor: pointer;
 }
 
 .left-arrow i{
-  background-color: red;
+  background-color: rgb(7, 7, 7);
+  border-style: solid;
   border-radius: 50%;
+  color: #e11547;
+  border-color: rgb(1,145,210);
   padding: 20px;
   z-index: 5;
 margin-top: -5vh;
 
 }
 .right-arrow i{
-  background-color: red;
-  border-radius: 50%;
+  background-color: rgb(7, 7, 7);
+  border-style: solid;color:#e11547;
+  border-radius: 50%; border-color: rgb(1,145,210);
   padding: 20px;
   z-index: 5;
   margin-top: -5vh;
+}
+.left-arrow i:hover,.right-arrow i:hover{
+  color: white;
+  background:  rgb(1,145,210);
+  transition: background 0.3s ease-in-out;
 }
 .dot {
   cursor: pointer;
@@ -110,6 +119,5 @@ margin-top: -5vh;
 }
 
  .dot:hover,.active {
-  background-color: rgb(1,145,210);
+  background-color: #e11546;
 }
-

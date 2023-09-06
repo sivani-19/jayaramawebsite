@@ -4,11 +4,11 @@
 .officeheads_parent i{
     border-radius: 50px;
     background-color: rgba(255, 0, 0, 0);
-    color: rgb(0, 0, 0);
+    color:#0495ca;
     padding: 8px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border: 50px;
-    box-shadow: 0 0 2px rgb(0, 0, 0);
+    box-shadow: 0 0 2px rgb(255, 255, 255);
 }
 .details
 {
@@ -17,6 +17,7 @@
 }
 .details12 p{
     font-family: 'Noto Serif', serif;  
+    color: white;
 }
 .details12{
 margin: 20px;
@@ -25,11 +26,11 @@ text-align: left;
 .officeheads_parent{
     display: flex;
     padding: 10px;
+    color: #ffffff;
 }
 .details_child{
     position: relative;
     display: block;
-    
     padding: 30px;
 }
 .officeheads_parent i{
@@ -41,9 +42,9 @@ text-align: left;
     height: 6vmin;
     outline: none;
     border: none;
-    border-radius: 10px;
+    border-radius: 2px;
     background-color: #ffffff;
-    box-shadow: 0 0 1px rgb(0, 0, 0);
+    box-shadow: 0 0 2px rgb(255, 255, 255);
 } 
 .Message textarea{
     width:60.5vmin;
@@ -52,16 +53,17 @@ text-align: left;
     border: none;
     border-radius: 5px;
     background-color: #ffffff;
-    box-shadow: 0 0 1px rgb(0, 0, 0);
+    box-shadow: 0 0 1px rgb(255, 255, 255);
 }
 .data input:focus,.Message textarea:focus{
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px #0495ca;
 }
 .details button{
-    color: rgb(0, 0, 0);
+    color:#0495ca;
     padding: 1% 20px;
     margin-top: 1%;
     font-size: 18px;
+    color: #ffffff;
 }
 .details{
     text-align: center;
@@ -86,10 +88,16 @@ textarea
 
 .Submit button{
     border:none;
-    border-radius: 12px;
-    background:rgb(0, 0, 0);
+    border-radius: 2px;
+    border:2px solid #0495ca;
+    background:#000000;
     cursor: pointer;
+    color: #e11547;
+}
+.Submit button:active{
     color: #ffffff;
+  
+    background-color: #0495ca;
 }
 .officeheads{
     position: relative;
@@ -116,11 +124,15 @@ textarea
     position: absolute;
     margin-left:-55vmin;
     font-size: 3vmin;
-    color: rgb(0, 0, 0);
+    color: #e11547;
     z-index: 10;
 }
+.data1{
+    border-color: #0495ca;
+}
 #Getintouch{
-    background-color: #0094cc;
+    color: #ffffff;
+    background-color:rgb(0, 0, 0);
 }
 .details_child>span{
     display: flex;

@@ -3,23 +3,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 #service
 {
-    text-align: center;
+    margin-top: 20px;
     position:relative;
     width:70%;
     left:0%;
-    overflow:hidden;
-    margin-top: 10vmin;
+    overflow:hidden;   
+}
+#services11{
+  background-color: #000000;
+  margin-top: 20px;
 }
 #service h2
 {
+    text-align: center;
     font-family: 'Merriweather', serif;
     font-size:5vmin;
-    text-decoration: underline;
     margin-bottom:4vmin;
+    color: #e11546;
 }
 .service p
 {
     font-family: 'Noto Serif', serif;
+    color: white;
 }
 .service  
 {
@@ -27,7 +32,7 @@
     display: flex;
     position: relative;
     transition: 0.5s;
-    padding-bottom: 5px;
+    padding-bottom: 5px;    
 }
 .service > div 
 {
@@ -36,40 +41,48 @@
     justify-content: space-between;
     border-radius:5px;
     left: 0%;
-    padding:15px;
+    padding:0px 15px;
     margin:0px 5px;
-    background: linear-gradient(#ffffff 100%);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
-
+    box-shadow: 0 0 3px rgba(255, 255, 255, 0.521);
 }
 .service h4
 {
   font-size: 2.4vmin;
-  margin-top:3vmin;
-  color:rgb(0, 0, 0);
+  color:rgba(225,21,70,255);
   font-family: 'Libre Baskerville', serif;
 }
 .service img{
  width:25%;
  margin-top: 2vmin;
- background-color:rgb(6,143,212) ;
  padding: 8px;
  border-radius: 5%;
 }
 .service p
-{
-    font-size: 0.9rem;
+{ 
+  font-size: 0.9rem;
 }
-  .service >div:hover 
-  {
-    background: rgba(1, 143, 210, 5.114);
-    transition:background 0.6s linear;
-  }
-.buttonleft img,.buttonright img
+.service >div:hover 
 {
-  height: 10px;
-  background-color: rgb(255, 0, 0);
-  border-radius:10px; 
+  background: rgba(225,21,70,255);
+  transition:background 0.6s linear;
+}
+.service >div:hover h4
+{
+   color: #000000;
+}
+.buttonleft,.buttonright
+{
+    position: relative;
+    margin:10px;
+}
+.buttonleft i,.buttonright i
+{
+  margin-top: 50px;
+  height: 15px;
+  background-color:rgb(0, 0, 0);
+  border-radius: 50px;
+  border:2px solid rgb(6,143,212); 
+  color: #e11547;
   padding: 10px;
 }
 .buttonright,.buttonleft{
@@ -81,12 +94,10 @@
   justify-content: center;
   overflow-x: hidden;
 }
-
 .service{
   width: 100%;
-
 }
-.buttonleft img,.buttonright img{
+.buttonleft i,.buttonright i{
   position: relative;
   
 }

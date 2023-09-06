@@ -5,13 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 html { 
   height:100%;
   width:100%;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-
+background-color: #000000;
 }
 *{
  /* Prevent horizontal overflow */ 
@@ -130,7 +131,7 @@ margin-top: 100px;
   .menucolumn li:hover
   {
     transition: background-color 0.2s linear;
-    background-color: red;
+    background-color: #e11547;
     color: #000000;
   }
  .menucolumn li{
@@ -165,55 +166,54 @@ margin-top: 100px;
 /*----------------------------------------------------------------------------------------*/
 .parallax
 {
-  display:grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,2fr));
-  background: rgb(255, 255, 255);
+ /* display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,2fr));*/
+  display:flex;
+  background: url("allimages/skyscrapers-looking-up.jpg");
+  background-color: #000000ae;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height:100vh;
   overflow: hidden;
 }
 
-.parallax2 img
-{   
-  overflow-x: hidden;
-  display: flex;
-  position: relative;    
-  height: 100vh; /* Set the height to 50% of the viewport height */
-  object-fit: cover;
-  width:100%;
-  background-attachment: fixed;
-  margin-top:0%;
-  overflow: hidden;
-}
-.parallax1 p
+.parallax1 
 {
+    display: flex;
+    align-items: center;
     position: relative;
-    transform: translateY(30vmin);
-    margin-left:9vmin;
+    margin:  0px auto;
     z-index: 1;
-    width: 80%;
+    text-align: center;
+    width: 50%;
 }
-.span1{
-  color: rgb(0, 0, 0);
+.span1
+{
+  color: #e11547;
 }
-.span11{
-  font-family: 'Signika Negative', sans-serif;
-  color: #0094cc;
-  font-size:12.5vmin ;
+.span11
+{
+  font-family: 'Roboto Slab', serif;
+  color:#0094cc;
+  font-size:8vmin ;
   font-weight: bold;
-  text-transform: uppercase;
   position: relative;
+  top: -20px;
 }
 /* Define initial state */
 
 /* Define the animation */
 .span2 a
 {
+  font-family: 'Roboto Slab', serif;
   font-size: 3.5vmin;
   background-color:  #0094cc;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  border-radius: 50px;
-  padding: 8px;
+  border-radius: 10px;
+  padding: 18px;
   text-decoration: none;
+  margin-top: -20px;
 }
 a
 {
@@ -221,10 +221,10 @@ a
 }
 .span12
 {
-  font-size: 1.4rem;
-  color: #0b0b0b;
+  font-size: 1.2rem;
+  color: #fffdfd;
   display: flex; /*remove the spaces */
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Roboto Slab', serif;
 }
 .span2 a
 {
@@ -260,8 +260,11 @@ a
     opacity: 1;
   }
 }
+.details_child{
+  display: flex;
+}
+
 footer{
   text-align: center;
-  background-color:  #0094cc;
 }
 
