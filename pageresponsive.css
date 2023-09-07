@@ -1,13 +1,9 @@
 @media (max-width:489px)
 {
+#parallax{height:60vh;background-size:cover;background-repeat: no-repeat;background-position: -90px;}
+.parallax1{width: 100%;}
+.span1{margin-top: 20vmin;}
 .menu{display: none;overflow-x: hidden;}
-.parallax2{top:-50%;position: relative;}
-.parallax{margin-bottom: -50%;}
-.parallax p{width: 90%;top: -20%;text-align: center;background-color: rgba(255, 254, 254, 0.4);margin:0 auto;padding: 10px;}
-.parallax2 img{width:100vw; height:120vw;}
-.parallax1 p{left:-50%;top:-50%;transform: translate(52%,100%);}
-.span1{font-size: 1.2rem;}
-.span2 a{font-size: 1.2rem;}
 .menu-btn i{display: block;}
 .closed i{display: block;}
 .menucolumn{position: absolute;display: block;width: 100%;}
@@ -19,11 +15,8 @@
 .Testimonials1 p{width:70vmin;font-size:1.1rem;}
 .testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;font-size: 8vmin;}
 .Testimonials-list h4{font-size: 1.5rem;}
-.left-arrow i{display: none;}
-.right-arrow i{display: none;}
-.testimon{width: 100vmin;}
-.left11{margin:0px auto;display: flex;justify-content: center;}
-.left11 img{object-fit: cover;width:90%; }
+.left11{margin:0px auto;display: flex;justify-content: center; left:0%;}
+.left11 img{object-fit: cover;width:100%;}
 .right1 p{width: 100%;font-size: 1.1rem; white-space:normal;}
 .right1{margin:0px auto;}
 .data i{font-size: 5.5vmin;color: rgb(6, 142, 200);margin-left: -68vmin;}
@@ -34,8 +27,6 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;}
 @media(min-width:489px) and (max-width: 768px)
 {
     .menu{display: none;overflow-x: hidden;}
-    .parallax p{width: 90%;top: -20%;text-align: center;background-color: rgba(255, 254, 254, 0.4);margin:0 auto;padding: 10px;}
-    .parallax1 p{margin: 30vmin auto;position: relative;justify-content: center;align-items: center;}
     .menu-btn i{display: block;}
     .closed i{display: block;}
     .menucolumn{position: absolute;display: block;width: 100%;}
@@ -46,6 +37,5 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;}
     #service p{font-size: 0.75rem;}
     .testimon{width: 100%;}
     .Testimonials1 p{width: 75%;font-size:3.5vmin;padding: 5vmin;border-radius: 5px;box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);}
-    .left-arrow i{display: none;}
-    .right-arrow i{display: none;}
+  
 }

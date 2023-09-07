@@ -155,8 +155,8 @@ margin-top: 100px;
   display: flex;
   justify-content: end;
   position: absolute;
-  top:17vh;
-  right:15vh;
+  top:8vh;
+  right:8vh;
   overflow-x: hidden;
  }
   /* Rest of your existing CSS */
@@ -198,7 +198,6 @@ margin-top: 100px;
   font-size:8vmin ;
   font-weight: bold;
   position: relative;
-  top: -20px;
 }
 /* Define initial state */
 

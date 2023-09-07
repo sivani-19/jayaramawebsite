@@ -81,7 +81,10 @@
 z-index: 5;
 cursor: pointer;
 }
-
+.left-arrow,.right-arrow{
+  position: relative;
+  margin:10px;
+}
 .left-arrow i{
   background-color: rgb(7, 7, 7);
   border-style: solid;
@@ -90,8 +93,7 @@ cursor: pointer;
   border-color: rgb(1,145,210);
   padding: 20px;
   z-index: 5;
-margin-top: -5vh;
-
+margin-top: -5vh;position:absolute;margin-left: 6vmin;
 }
 .right-arrow i{
   background-color: rgb(7, 7, 7);
@@ -99,7 +101,7 @@ margin-top: -5vh;
   border-radius: 50%; border-color: rgb(1,145,210);
   padding: 20px;
   z-index: 5;
-  margin-top: -5vh;
+  margin-top: -5vh;position:absolute;margin-left:-16.5vmin;
 }
 .left-arrow i:hover,.right-arrow i:hover{
   color: white;

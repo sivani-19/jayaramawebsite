@@ -102,7 +102,7 @@ textarea
 .officeheads{
     position: relative;
     font-size:large;
-    color:rgba(0, 0, 0, 0.92)
+    color:rgba(255, 255, 255, 0.92)
 }
 
 .data{
@@ -124,7 +124,7 @@ textarea
     position: absolute;
     margin-left:-55vmin;
     font-size: 3vmin;
-    color: #e11547;
+    color:#0495ca;
     z-index: 10;
 }
 .data1{
