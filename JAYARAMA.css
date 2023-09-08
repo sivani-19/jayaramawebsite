@@ -230,21 +230,7 @@ a
   display: inline-block;
   margin-top: 4vmin;
 }
-.parallax1{
-  animation-name: parallaz;
-  animation-duration: 2s;
-}
-@keyframes parallaz {
-  0%{
-    transform: translate(-100%);
-    opacity: 0;
-  }
-  
-  100%{
-    transform:translate(0%);
-    opacity: 1;
-  }
-}
+
 .parallax2{
   animation-name: parallaz1;
   animation-duration: 2s;
