@@ -77,6 +77,9 @@ text-align: left;
     display: flex;
     font-size: 2.7vmin;
 }
+.officeheads_parent span{
+    margin-left: 3vmin;
+}
 input[type=text],input[type=email],input[type=tel],input[type=message]
 {
     padding-left: 6vmin;
@@ -123,7 +126,7 @@ textarea
 .data1 i{
     position: absolute;
     margin-left:-55vmin;
-    font-size: 3vmin;
+    font-size: 4vmin;
     color:#0495ca;
     z-index: 10;
 }
@@ -133,6 +136,9 @@ textarea
 #Getintouch{
     color: #ffffff;
     background-color:rgb(0, 0, 0);
+}
+#Getintouch h2{
+    text-align: center;
 }
 .details_child>span{
     display: flex;

@@ -13,6 +13,7 @@
   }
   .Testimonials-list h4
 {
+  text-align: center;
   color:#e11546;
     font-family: 'Merriweather', serif;   
 }
@@ -93,7 +94,7 @@ cursor: pointer;
   border-color: rgb(1,145,210);
   padding: 20px;
   z-index: 5;
-margin-top: -5vh;position:absolute;margin-left: 6vmin;
+margin-top: -5vh;position: absolute;margin-left: 10px;
 }
 .right-arrow i{
   background-color: rgb(7, 7, 7);
@@ -101,7 +102,7 @@ margin-top: -5vh;position:absolute;margin-left: 6vmin;
   border-radius: 50%; border-color: rgb(1,145,210);
   padding: 20px;
   z-index: 5;
-  margin-top: -5vh;position:absolute;margin-left:-16.5vmin;
+  margin-top: -5vh;position: absolute;margin-left: -70px;
 }
 .left-arrow i:hover,.right-arrow i:hover{
   color: white;
