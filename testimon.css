@@ -124,3 +124,6 @@ margin-top: -5vh;position: absolute;margin-left: 10px;
  .dot:hover,.active {
   background-color: #e11546;
 }
+.left-arrow,.right-arrow{position: absolute;}
+.left-arrow{left:20vh}
+.right-arrow{right:20vh}

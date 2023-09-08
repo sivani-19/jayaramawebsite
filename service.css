@@ -41,7 +41,7 @@
     justify-content: space-between;
     border-radius:5px;
     left: 0%;
-    padding:0px 15px;
+    padding:20px 15px;
     margin:0px 5px;
     box-shadow: 0 0 3px rgba(255, 255, 255, 0.521);
 }
@@ -53,8 +53,6 @@
 }
 .service img{
  width:25%;
- margin-top: 2vmin;
- padding: 8px;
  border-radius: 5%;
 }
 .service p
@@ -72,19 +70,24 @@
 }
 .buttonleft,.buttonright
 {
-  display:inline;
     position: relative;
-    margin:10px;
+   
+}
+.buttonleft i{
+  position: absolute;
+  margin-left: -34px;
 }
 .buttonleft i,.buttonright i
 {
-  margin-top: 50px;
+  
   height: 15px;
   background-color:rgb(0, 0, 0);
   border-radius: 50px;
   border:2px solid rgb(6,143,212); 
   color: #e11547;
   padding: 10px;
+  position: absolute;
+ 
 }
 .buttonright,.buttonleft{
   cursor: pointer;
@@ -97,8 +100,4 @@
 }
 .service{
   width: 100%;
-}
-.buttonleft i,.buttonright i{
-  position: relative;
-  
 }

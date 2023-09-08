@@ -1,19 +1,22 @@
 @media (max-width:489px)
 {
-#parallax{height:60vh;background-size:cover;background-repeat: no-repeat;background-position: -90px;}
+#parallax{background-repeat: no-repeat;height: 60vh;width:auto;}
 .parallax1{width: 100%;}
 .span1{margin-top: 20vmin;}
 .menu{display: none;overflow-x: hidden;}
 .menu-btn i{display: block;}
 .closed i{display: block;}
 .menucolumn{position: absolute;display: block;width: 100%;}
-.service>div{flex: 0 0 calc(100% / 1 - 40px);}
+.service > div 
+{
+  flex: 0 0 calc(100% / 1 - 40px);padding:10px 15px;margin:0px 5px;box-shadow: 0 0 3px rgba(255, 255, 255, 0.521);
+}
 .service img{width:33%;}
 .service h4{font-size: 1.3rem;}
 #service h2{font-size: 1.5rem;}
 #service p{font-size: 1.1rem;}
 #aboutus1 h2{font-size: 1.5rem;}
-.Testimonials1 p{width:70vmin;font-size:1.1rem;}
+.Testimonials1 p{width:60vmin;font-size:1.1rem;}
 .testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;font-size: 8vmin;}
 .Testimonials-list h4{font-size: 1.5rem;}
 .left11{margin:0px auto;display: flex;justify-content: center; left:0%;}
@@ -30,11 +33,11 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
 .testimon{width: 100%;}
 .left-arrow,.right-arrow{position: absolute;}
 .left-arrow {left: -20px;}
-.right-arrow{right: -30px;}
+.right-arrow{display: flex;justify-content: end;right: -10px;}
 }
 @media(min-width:489px) and (max-width: 620px)
 {
-    #parallax{background-size: cover;background-repeat: no-repeat;background-position: -100px;width: 100%;}
+    #parallax{background-size: cover;background-repeat: no-repeat;width: 100%;}
     .parallax1{width: 100%;}
     .menu{display: none;overflow-x: hidden;}
     .menu-btn i{display: block;}
@@ -55,8 +58,43 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
     .data1{position: relative;}
     .data1 i{position: absolute;margin-left:-55vmin;font-size: 4vmin;color:#0495ca;z-index: 10;}
   .details
-  {
-     display: grid;
-     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-  }
+  {display: grid;grid-template-columns: repeat(auto-fit,minmax(300px,1fr));}
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  /* Add your responsive styles for this screen size range here */
+  #parallax {background-size: cover;background-repeat: no-repeat;width: 100%;}
+  .parallax1 {width: 100%;}
+  .menu {display: none; /* Hide the menu on screens between 600px and 900px */overflow-x: hidden;}
+  .menu-btn i {display: block; /* Display the menu button on screens between 600px and 900px */ }
+  .closed i {display: block; /* Display the closed icon on screens between 600px and 900px */}
+  .menucolumn {position: absolute;display: block;width: 100%;}
+  .span11 {font-size: 8.5vmin;}
+  .span12 {font-size: 5.5vmin;}
+  .service > div {flex: 0 0 calc(100% / 2 - 40px);}
+  #service h4 {font-size: 0.8rem;}
+  #service p {font-size: 0.75rem; }
+  .left11 {margin: 0px auto;display: flex;justify-content: center;left: 0%;}
+  .right1 p {width: 100%;font-size: 1.1rem;white-space: normal;}
+  .testimon {width: 100%;}
+  .Testimonials1 p { width: 50%;font-size: 3.5vmin;padding: 5vmin;border-radius: 5px;box-shadow: 0 0 5px rgba(255, 255, 255, 0.12);}
+  .data1 {position: relative;}
+  .data1 i {position: absolute;left:56.5vmin;font-size: 4vmin;color: #0495ca;z-index: 10;}
+  .details {display: grid;grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));}
+  .mobile_menu{display: flex;justify-content: end;position: absolute;top:5vh;right:8vh;overflow-x: hidden;}
+  .left-arrow,.right-arrow{position: absolute;}
+  .left-arrow {left: -20px;}
+.right-arrow{display: flex;justify-content: end;right: -10px;}
+}
+@media (min-width:1500px){
+  .span11 {font-size: 8.5vmin;}
+  .span12 {font-size: 5.5vmin;}
+  .service > div {flex: 0 0 calc(100% / 4 - 40px);}
+  #service h4 {font-size: 1.4rem;}
+  #service p {font-size: 1.2rem; }
+  .right1 p {width: 80%;font-size: 1.2rem;white-space: normal;}
+  .right1 {display: flex;justify-content: center;align-items: center;} 
+  .menu a {font-size: 1.4rem;}
+  .left-arrow {left: 38.5vmin;}
+  .right-arrow{display: flex;justify-content: end;right: 40vmin;}
+.Testimonials1 p{font-size: 1.2rem;}
 }
