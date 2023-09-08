@@ -231,20 +231,6 @@ a
   margin-top: 4vmin;
 }
 
-.parallax2{
-  animation-name: parallaz1;
-  animation-duration: 2s;
-}
-@keyframes parallaz1{
-  0%{
-    transform: translate(100%);
-    opacity: 0%;
-  }
-  100%{
-    transform: translate(0%);
-    opacity: 1;
-  }
-}
 .details_child{
   display: flex;
 }
