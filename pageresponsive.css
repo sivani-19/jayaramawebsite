@@ -1,21 +1,20 @@
 @media (max-width:489px)
 {
-#parallax{background-repeat: no-repeat;height: 60vh;width:auto;}
+#parallax{background-repeat: no-repeat;height: 400px;width:auto;}
+header{height: 100px;}
+.navbar__container img{width:30%;}
 .parallax1{width: 100%;}
 .span1{margin-top: 20vmin;}
 .menu{display: none;overflow-x: hidden;}
 .menu-btn i{display: block;}
 .closed i{display: block;}
 .menucolumn{position: absolute;display: block;width: 100%;}
-.service > div 
-{
-  flex: 0 0 calc(100% / 1 - 40px);padding:10px 15px;margin:0px 5px;box-shadow: 0 0 3px rgba(255, 255, 255, 0.521);
-}
+.service > div {flex: 0 0 calc(100% / 1 - 40px);padding:10px 15px;margin:0px 5px;box-shadow: 0 0 3px rgba(255, 255, 255, 0.521);}
 .service img{width:33%;}
 .service h4{font-size: 1.3rem;}
 #service h2{font-size: 1.5rem;}
 #service p{font-size: 1.1rem;}
-#aboutus1 h2{font-size: 1.5rem;}
+span h2{font-size: 1.5rem;}
 .Testimonials1 p{width:60vmin;font-size:1.1rem;}
 .testimon_parent i{position: absolute;padding: 8px;margin-top: -2vh;font-size: 8vmin;}
 .Testimonials-list h4{font-size: 1.5rem;}
@@ -34,6 +33,7 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
 .left-arrow,.right-arrow{position: absolute;}
 .left-arrow {left: -20px;}
 .right-arrow{display: flex;justify-content: end;right: -10px;}
+.menucolumn ul{margin-top: 100px;}
 }
 @media(min-width:489px) and (max-width: 620px)
 {
@@ -62,14 +62,16 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
 }
 @media screen and (min-width: 600px) and (max-width: 900px) {
   /* Add your responsive styles for this screen size range here */
+  header{height: 150px;}
   #parallax {background-size: cover;background-repeat: no-repeat;width: 100%;}
   .parallax1 {width: 100%;}
   .menu {display: none; /* Hide the menu on screens between 600px and 900px */overflow-x: hidden;}
   .menu-btn i {display: block; /* Display the menu button on screens between 600px and 900px */ }
   .closed i {display: block; /* Display the closed icon on screens between 600px and 900px */}
+  .menucolumn ul{margin-top: 150px;}
   .menucolumn {position: absolute;display: block;width: 100%;}
-  .span11 {font-size: 8.5vmin;}
-  .span12 {font-size: 5.5vmin;}
+  .span11 {font-size: 5.5vmin;}
+  .span12 {font-size: 4vmin;}
   .service > div {flex: 0 0 calc(100% / 2 - 40px);}
   #service h4 {font-size: 0.8rem;}
   #service p {font-size: 0.75rem; }
@@ -87,7 +89,7 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
 }
 @media (min-width:1500px){
   .span11 {font-size: 8.5vmin;}
-  .span12 {font-size: 5.5vmin;}
+  .span12 {font-size: 4vmin;}
   .service > div {flex: 0 0 calc(100% / 4 - 40px);}
   #service h4 {font-size: 1.4rem;}
   #service p {font-size: 1.2rem; }
@@ -97,4 +99,32 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
   .left-arrow {left: 38.5vmin;}
   .right-arrow{display: flex;justify-content: end;right: 40vmin;}
 .Testimonials1 p{font-size: 1.2rem;}
+}
+@media screen and (min-width:900px) and (max-width:1200px){
+  header{height: 150px;}
+  #parallax{background-repeat: no-repeat;height: 50vh;width:auto;}
+  .parallax1{width: 80%;}
+  .span1{margin-top: 20vmin;}
+  .span11{font-size:6.5vmin ;}
+  .span12{font-size: 4.5vmin;}
+  .data i{font-size: 6vmin;color: rgb(6, 142, 200);margin-left: -43vmin;}
+  #service h4 {font-size: 1.6rem;}
+  #service p {font-size: 1.4rem; }
+  .service img{width:40%;}
+  .service > div {flex: 0 0 calc(100% / 2 - 40px);}
+  .left-arrow {left: 20px;}
+  .right-arrow{display: flex;justify-content: end;right: 30px;}
+  .right1 p {font-size: 1.4rem;white-space: normal;}
+  .Testimonials1 p{font-size: 1.6rem;}
+  .details12{font-size: 1.6rem;}
+  .officeheads{font-size: 1.6rem;}
+  .officeheads_parent i{font-size: 2rem;}
+  .officeheads_parent{margin-left: 20px;}
+  .data input{width:64vmin;height: 9vmin;} 
+  .details{grid-template-columns: repeat(auto-fit,minmax(550px,1fr));}
+  .data1 i{ margin-left: -63vmin;font-size: 3rem;}
+  .Message textarea{width:73vmin;font-size:2rem;}
+  input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-size: 2rem;}
+  .Submit button{font-size: 2rem;}
+  .menu a{font-size: 1.6rem;}
 }
