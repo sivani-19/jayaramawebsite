@@ -126,8 +126,7 @@ margin-top: 100px;
   }
   #menucolumn a{
     font-family: 'Roboto Slab', serif;
-    font-size: 1.1rem;
-  }
+    font-size: 1.1rem;}
   .menucolumn li:hover
   {
     transition: background-color 0.2s linear;

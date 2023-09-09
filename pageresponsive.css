@@ -34,9 +34,12 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
 .left-arrow {left: -20px;}
 .right-arrow{display: flex;justify-content: end;right: -10px;}
 .menucolumn ul{margin-top: 100px;}
+.details_child{overflow: hidden;margin-left: -10vmin;}
+
 }
 @media(min-width:489px) and (max-width: 620px)
 {
+ 
     #parallax{background-size: cover;background-repeat: no-repeat;width: 100%;}
     .parallax1{width: 100%;}
     .menu{display: none;overflow-x: hidden;}
@@ -96,11 +99,13 @@ input[type=text],input[type=email],input[type=tel]{padding-left: 10vmin;font-siz
   .right1 p {width: 80%;font-size: 1.2rem;white-space: normal;}
   .right1 {display: flex;justify-content: center;align-items: center;} 
   .menu a {font-size: 1.4rem;}
-  .left-arrow {left: 38.5vmin;}
-  .right-arrow{display: flex;justify-content: end;right: 40vmin;}
+  .left-arrow {left:25vmin;position: absolute;}
+  .right-arrow{display: flex;right: 25.5vmin;position: absolute;}
 .Testimonials1 p{font-size: 1.2rem;}
+header{height:22vh;}
+.navbar__container img{width:35%;}
 }
-@media screen and (min-width:900px) and (max-width:1200px){
+@media screen and (min-width:900px) and (max-width:1024px){
   header{height: 150px;}
   #parallax{background-repeat: no-repeat;height: 50vh;width:auto;}
   .parallax1{width: 80%;}
